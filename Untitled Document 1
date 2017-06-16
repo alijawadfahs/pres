@@ -1,0 +1,224 @@
+
+
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+\title{Collision Prevention in Distributed 6TiSCH Networks }
+
+
+
+
+\author
+{
+		\makebox[.33\linewidth]{\fontfamily{ptm}\selectfont Ali J. Fahs}\\ \textit{DRAKKAR - Synchrone} \\\textit{LIG-VERIMAG}\\ \textit{Grenoble,France} \\\textit{ali.fahs@etu.univ-grenoble-alpes.fr}\\\
+\and 	\makebox[.33\linewidth]{\fontfamily{ptm}\selectfont Olivier Alphand}\\ \textit{DRAKKAR Team} \\ \textit{LIG} \\\textit{Grenoble,France}\\\textit{olivier.alphand@imag.fr}\\\   
+\and	\makebox[.33\linewidth]{\fontfamily{ptm}\selectfont Franck Rousseau}\\ \textit{DRAKKAR Team} \\ \textit{LIG}\\\textit{Grenoble,France}\\\textit{franck.rousseau@imag.fr}\\\   
+\and 	\makebox[.33\linewidth]{\fontfamily{ptm}\selectfont Karine Altisen }\\ \textit{Synchrone}\\ \textit{VERIMAG}\\\textit{Grenoble,France}\\\textit{karine.altisen@imag.fr}\\\
+\and 	\makebox[.33\linewidth]{\fontfamily{ptm}\selectfont St\'ephane Devismes}\\ \textit{Synchrone}\\ \textit{VERIMAG}\\ \textit{Grenoble,France} \\\textit{stephane.devismes@imag.fr}\\\
+\and 	\makebox[.33\linewidth]{\fontfamily{ptm}\selectfont Rodolphe Bertolini}\\ \textit{DRAKKAR Team}\\ \textit{LIG}\\\textit{Grenoble,France}\\\textit{bertolir@etu.univ-grenoble-alpes.fr} \\\
+
+}
+
+
+\maketitle
+
+
+\begin{abstract}
+The abstract goes here. DO NOT USE SPECIAL CHARACTERS, SYMBOLS, OR MATH IN YOUR TITLE OR ABSTRACT.
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+ \hspace{.1cm} IoT ; WSN ; IEEE802.15.4e ; 6TiSCH ; 6top
+
+\end{IEEEkeywords}
+
+
+
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+
+Network Technologies have been shifted from a limited number of interconnected expensive computers with high performance processing units to networks made of a huge number of  cheap entities with limited processing capabilities, called {\em things}, leading to the idea of {\em Intenet of Things (IoT)}. The communication between those entities has required the creation of a standard, {\em IEEE802.15.4}.
+
+IEEE802.15.4 aims at offering the low network layers ({\em i.e.}, PHY and MAC) for low cost and low speed communication. Actually, the contribution of this standard is not only limited to the reduction of the power consumption, but also to use techniques reducing  the manufacturing cost. All of this was managed while achieving network reliability. 
+
+In 2012,{\em TSCH (Time-Slotted Channel Hopping)} was proposed by  {\em IETF (Internet Engineering Task Force)} and added to the media access layer of IEEE 802.15.4e. TSCH is Time-slotted which means that there is periodic slot-frame. This slot-frame is split into several time-slots. The length of the time-slots should be large enough to send the maximum frame length from the transmiting node (Tx) to the receiving node (Rx), while ensuring synchronization between nodes.TSCH is also based on channel hopping, where the bandwidth is split over several channels. Consequently, many nodes can communicate at the same time-slot using different channels, identified by channel offsets. Two nodes willing to communicate have to pick up a cell from the TSCH table. This cell is defined by the number of time-slot (0 $\rightarrow L-1$, where $L$ is the slot-frame length) and a channel offset. There are two types of TSCH cells: the shared cells where each node is either listening, or sending; and the dedicated cells that provide private communication between two neighboring nodes. 
+
+Since we are dealing with millions of nodes, sensors, and things that should be connected to the Internet, large scaling capabilities are mandatory. This was the focus of the IETF Working Group, which has created the 6TiSCH architecture to enable IPv6 over TSCH in the existing IEEE802.15.4e.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=4.77cm, height=4cm]{layers.png}
+    \caption{Layers of the 6TiSCH Networks}
+    \label{fig:Layers of the 6TiSCH Networks}
+\end{figure}
+
+In this paper we focus on the 6TiSCH operation sublayer (6top) that  allows neighboring nodes to add and/or delete TSCH dedicated cells.In addition, we are concerned about the scheduling function which selects the cells to be assigned to nodes. the complexity of the problem lies on the fact that the system is distributed, {\em i.e.}, there is no central entity to monitor the whole network. Precisely, the resource allocation process (adding or removing cells) should be done locally, using the communication between the neighboring nodes in the shared cells. The communication is organized as a distributed convergecast to a sink node and based on a {\em Destination-Oriented Directed Acyclic Graph (DODAG)} computed by the  {\em Routing Protocol for Low-Power and Lossy Networks (RPL)}. Hence during a communication in the dedicated slot, Rx is necessarily a parent of Tx.  
+
+The scheduling function in 6top selects cells from the TSCH schedule to be assigned to the pair of nodes asking for new communication cells. This process has to consider many factors, like latency on end-to-end transmission and the probability of collision. Most of the existing scheduling functions select cells randomly, taking only the cells used by Tx and Rx into account. To the best of our knowledge, no scheduling function implemented in a distributed system copes with the cells reserved by the neighbors. Indeed, each node only communicate with its parent and children in the DODAG.   
+
+Since the scheduling function ignores the cells reserved by the neighbors, the network is subjected to collisions in dedicated cells, {\em i.e.}, two neighboring nodes that are not directly linked in the DODAG can select the same cell, leading to packet dropping. Our contribution focuses on reducing those collisions. For that reason, we take the cells used in the neighborhood into account during the cell allocation. 
+
+%Since we are working in a distributed system where all the information a node knows about the network is just the information of it's parent,children and itself and communication is limited also to the parent and children which made the problem more challenging and less straightforward, 
+more over we have to take the latency and the contention in the shared slot into account while implementing our approach.
+
+The solution we have implemented achieves a minimium reduction of 66 \% in the number of collided Tx cells, and … \% reduction of the number collided packets.As a side-effect we observed a significant reduction of interferences in the network. \\
+
+The main contributions of our papers are:
+
+\begin{itemize}
+\item Implementing a mechanism to collect and reserve the dedicated cells by neighbor without introducing any overhead to the network. 
+\item Modifications of the add and delete operations at the 6top sublayer.
+\end{itemize}
+
+\section{Background}
+
+\subsection{6TiSch Operation Sublayer (6top)} 
+
+IEEE802.15.4e has standarized TSCH medium access layer. However the mechanisms to build and manage the communication schedule were not defined in this standard, because the aim was to allow flexible customization and optimization. TSCH and IPv6 have been merged into 6TiSCH, whose operation sublayer, 6top, aims at managing the TSCH.
+
+6p (6top protocol) which is a part of 6top, orchestrates all communications using the TSCH schedule. 6P controls the cell reservation and deletion process. It allows the nodes to request for new TSCH cells and update the TSCH schedule table accordingly. Hence 6P enables the distributed scheduling in 6TiSCH network.
+
+If we consider a Tx node (child) and Rx node(parent) that are communicating in the 6TiSCH network, 6P can achieve 3 types of operations for this communication: 
+\begin{enumerate}
+
+\item Tx determines that it need more cells to communicate with Rx. Then, it  will issue a 6top transaction to add more cells into TSCH schedule. Notice that the duty of the scheduling function in 6top is to decide if more cells are needed.
+
+\item Tx determines that it need less cells to communicate with Rx. Then, it will issue a 6top transaction to delete some TSCH cells. 
+
+\item In some cases, Tx and Rx detect a dedicated cell is facing collisions. AS a result, Tx replace the defected oncell through 6top transactions, this process is called {\em cell relocation}.
+ 
+
+\end{enumerate}
+
+Each of such operations is encapsulated into a transaction. A  6top transaction consists in a negociation between Tx and Rx, that induce an update in the TSCH table. This transaction can consist of 2 or 3 steps,that are explained in figure … 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=9cm, height=4.5cm]{2,3steps.png}
+    \caption{6P Transaction}
+    \label{fig:Collision in 6TiSCH Networks}ali.fahs@etu.univ-grenoble-alpes.fr\\
+\end{figure}
+
+
+
+The scheduling function determines which transaction to be used. Transactions are done in the shared slot, which means that they can be received by the neighboring nodes. However, due to the filtering at the MAC layer, those transactions are actually ignored .
+
+
+\subsection{Medium Access Control Filtering}
+
+Consequently, According to the IEE802.15.4 which defines the MAC layer, the filtering is done over levels of filters, such that the first level  will filter out the defected messages using FCS (frame check sequence),the second and the third filters will check specific modes in the network and act correspondingly , the final level of  filtering deals with the content of the frame. Out of our scope we are mostly interested in the final MAC filtering layer , where the MAC layer decides whether to pass the frame to the next level or not according to list of conditions like frame type, version and detestation PAN ID.\\
+
+We can manipulate those conditions by two ways either by sending a frame that we confirm it will pass those conditions, or by changing the setting in the MAC layer  by adding new conditions. As an example we can add a condition in the MAC layer to accept all the frame with the frame version \verb|IANA_6TOP_6P_VERSION|. Frames with this version are the frames transmitted by 6top protocol according to the IETF standards for 6top.\\
+
+Further in explanations, we can use the fact that the 6p transaction are submitted in the shared slot to deliver a small information about the neighbor, basically this information represent the cells reserved by neighbor. For neighbors this information can prevent them from reserving the same cell,   where for now the scheduling functions are not able to avoid cells reserved by neighbors, this will  definitely lead into collision in the dedicated cells of TSCH, were we seek a collision free communication.
+
+\subsection{Collisions in the Dedicated Cells }
+
+As mentioned in the previous paragraph collisions in the dedicated cells are induced by neighbors reserving the same cell. Collisions may occur in the reception node if this node have two or more neighbors transmitting using the same scheduled cell, one of these nodes must be a child, the reset are neighbors transmitting to their parents. This event is the core of the problem we are trying to solve. 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=6.5cm, height=3.2cm]{collision.png}
+    \caption{Collision in 6TiSCH Networks}
+    \label{fig:Collision in 6TiSCH Networks}
+\end{figure}
+
+
+
+\section{Proposed Mechanism}
+
+
+
+
+\section{Results}
+
+\section{Related Work}
+
+\section{Conclusion}
+
+
+
+\section*{Acknowledgment}
+The authors would like to thank...
+more thanks here
+
+
+
+
+\begin{thebibliography}{1}
+
+\bibitem{IEEEhowto:kopka}
+Q.Wang, and X. Vilajosana, \emph{ 6top Protocol (6P). Internet Engineering Task Force, Tech. Rep. draft-ietf-6tisch-6top-protocol-00 } \hskip 1em plus
+0.5em minus 0.4em\relax https://tools.ietf.org/html/draft-ietf-6tisch-6top-protocol-00 , April 2016.
+
+\bibitem{IEEEhowto:kopka}
+T. Watteyne et al, \emph{ Using IEEE 802.15.4e Time-Slotted Channel Hopping (TSCH) in the Internet of Things (IoT): Problem Statement } \hskip 1em plus
+  0.5em minus 0.4em\relax https://tools.ietf.org/html/rfc7554 , May 2015.
+
+\bibitem{IEEEhowto:kopka}
+T. Winter et al, \emph{ RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks } \hskip 1em plus
+  0.5em minus 0.4em\relax https://tools.ietf.org/html/rfc6550 , March 2012.
+
+\bibitem{IEEEhowto:kopka}
+D. Dujovne et al, \emph{6tisch: deterministic ip-enabled industrial internet(of things)} \hskip 1em plus
+  0.5em minus 0.4em\relax IEEE Communications Magazine — Communications Standards Supplement ,December 2014.
+  
+\bibitem{IEEEhowto:kopka}
+J. Tripathi et al, \emph{A Performance Evaluation Study of RPL: Routing Protocol for Low Power and Lossy Networks} \hskip 1em plus
+  0.5em minus 0.4em\relax  Information Sciences and Systems (CISS), 44th Annual Conference on (pp. 1-6). IEEE , March 2010.
+
+\bibitem{IEEEhowto:kopka}
+F. Theoleyre and G. Papadopoulos, \emph{Experimental Validation of a Distributed Self-Configured 6TiSCH with Traffic Isolation in Low Power Lossy Networks} \hskip 1em plus
+  0.5em minus 0.4em\relax  Proceedings of the 19th ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (pp. 102-110). ACM , November 2017.
+  
+\bibitem{IEEEhowto:kopka}
+N. Accettura et al, \emph{A Decentralized Traffic Aware Scheduling in 6TiSCH Networks: Design and Experimental Evaluation} \hskip 1em plus
+  0.5em minus 0.4em\relax   IEEE Internet of Things Journal, 2(6), 455-470 , December 2015.
+  
+\bibitem{IEEEhowto:kopka}
+M. R. Palattella et al, \emph{On-the-Fly Bandwidth Reservation for 6TiSCH Wireless Industrial Networks} \hskip 1em plus
+  0.5em minus 0.4em\relax  IEEE Sensors Journal, 16(2), 550-560,  September 2015.
+  
+\bibitem{IEEEhowto:kopka}
+M. R. Palattella et al, \emph{Traffic Aware Scheduling Algorithm for Reliable Low-Power Multi-Hop IEEE 802.15.4e Networks} \hskip 1em plus
+  0.5em minus 0.4em\relax  IEEE 23rd International Symposium on Personal, Indoor and Mobile Radio Communications - (PIMRC),  September 2012.
+ 
+\bibitem{IEEEhowto:kopka}
+N. Accettura et al, \emph{Decentralized Traffic Aware Scheduling for Multi-hop Low Power Lossy Networks in the Internet of Things} \hskip 1em plus
+  0.5em minus 0.4em\relax   In World of Wireless, Mobile and Multimedia Networks (WoWMoM), 2013 IEEE 14th International Symposium and Workshops on a (pp. 1-6). IEEE,  June 2013.
+ 
+\bibitem{IEEEhowto:kopka}
+S. Duquennoy et al, \emph{Orchestra: Robust Mesh Networks Through Autonomously Scheduled TSCH} \hskip 1em plus
+  0.5em minus 0.4em\relax  Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems (pp. 337-350). ACM, November 2015.
+
+\bibitem{IEEEhowto:kopka}
+K. Muraoka et al, \emph{Simple Distributed Scheduling With Collision Detection in TSCH Networks} \hskip 1em plus
+  0.5em minus 0.4em\relax  IEEE Sensors Journal, 16(15), 5848-5849,  May 2016.
+  
+\bibitem{IEEEhowto:kopka}
+L. Lamport, \emph{Time, clocks, and the ordering of events in a distributed system} \hskip 1em plus
+  0.5em minus 0.4em\relax  Communications of the ACM, 21(7), 558-565, July 1978.
+  
+\bibitem{IEEEhowto:kopka}
+T. P. Duy , \emph{Distributed cell selection for scheduling function in 6TiSCH networks} \hskip 1em plus
+0.5em minus 0.4em\relax Computer Standards and Interfaces, 53, 80-88, March 2017.
+
+\end{thebibliography}
+
+\medskip
+
+
+
+
+
+\end{document}
+
+
+

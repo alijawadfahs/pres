@@ -1,0 +1,97 @@
+
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage[super]{nth}
+\usetheme{Malmoe}
+\newcommand{\ts}{\textsuperscript}
+
+\makeatletter
+    \newenvironment{withoutheadline}{
+        \setbeamertemplate{headline}[default]
+        \def\beamer@entrycode{\vspace*{-\headheight}}
+    }{}
+\makeatother
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+
+%%%%%%%%%%FIRST SLIDE%%%%%%%%%%
+
+\setbeamercolor*{title}{use=structure,fg=white,bg=structure.fg}
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=true,shadow=true]
+\title[Collision Prevention in Distributed 6TiSCH Networks]{Collision Prevention \\in Distributed 6TiSCH Networks}
+
+\author{ Ali Jawad Fahs\\}
+
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{Universit\'e Grenoble Alpes (UGA) - UFR IM\textsuperscript{2}AG \\
+
+Laboratoire d'Informatique de Grenoble (LIG), Team Drakkar \\
+VERIMAG,Synchrone\\
+Supervised by : Olivier Alphand, Franck Rousseau \\
+ Karine Altisen, St\'ephane Devismes 
+ }
+
+\date{Master thesis, \nth{21} of June,2017}
+
+
+\subject{Wireless Sensor Networks}
+%%%%%%%%%%%%%%%%%%%%%%%% OUTLINE%%%%%%%%%%%%
+\AtBeginSubsection[]
+{ \begin{withoutheadline}
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+  \end{withoutheadline}
+}
+
+%%%%%%%%%%%%%%%%%%%% SLIDES %%%%%%%%%%%%%%%%
+\begin{document}
+\begin{withoutheadline}
+\begin{frame}
+  \titlepage
+
+\begin{itemize}
+\item[]
+\begin{center}
+\includegraphics[width=0.2\linewidth]{figures/logo_im2ag_h122.jpg} \hskip 1em
+\includegraphics[width=0.25\linewidth]{figures/logoINP.png}  \hskip 1em
+\includegraphics[width=0.21\linewidth]{figures/LIG_test.png}  \hskip 1em
+\includegraphics[width=0.22\linewidth]{figures/verimag.jpg}
+\end{center}
+\end{itemize}
+
+
+\end{frame}
+\end{withoutheadline}
+
+\begin{withoutheadline}
+    \begin{frame}{Outline} % and our simple frame
+        \tableofcontents
+    \end{frame}
+\end{withoutheadline}
+
+
+\section*{last}
+
+
+\begin{withoutheadline}
+\begin{frame}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+
+
+\end{frame}
+\end{withoutheadline}
+\end{document}
+
+

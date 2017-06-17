@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.16)  16 JUN 2017 10:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.16)  16 JUN 2017 14:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,25 +915,25 @@ line 70.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<logo_im2ag_h122.jpg, id=73, 142.5325pt x 122.4575pt>
+<logo_im2ag_h122.jpg, id=82, 142.5325pt x 122.4575pt>
 File: logo_im2ag_h122.jpg Graphic file (type jpg)
 
 <use logo_im2ag_h122.jpg>
 Package pdftex.def Info: logo_im2ag_h122.jpg used on input line 70.
 (pdftex.def)             Requested size: 57.07709pt x 49.03818pt.
- <logoINP.png, id=74, 190.7125pt x 120.45pt>
+ <logoINP.png, id=83, 190.7125pt x 120.45pt>
 File: logoINP.png Graphic file (type png)
 
 <use logoINP.png>
 Package pdftex.def Info: logoINP.png used on input line 70.
 (pdftex.def)             Requested size: 71.34744pt x 45.0602pt.
- <LIG_test.png, id=75, 1245.15187pt x 1066.7353pt>
+ <LIG_test.png, id=84, 1245.15187pt x 1066.7353pt>
 File: LIG_test.png Graphic file (type png)
 
 <use LIG_test.png>
 Package pdftex.def Info: LIG_test.png used on input line 70.
 (pdftex.def)             Requested size: 59.93378pt x 51.3378pt.
- <verimag.jpg, id=77, 250.9375pt x 187.70125pt>
+ <verimag.jpg, id=86, 250.9375pt x 187.70125pt>
 File: verimag.jpg Graphic file (type jpg)
 
 <use verimag.jpg>
@@ -964,244 +964,462 @@ resentation.toc) [2
 
 ] [9
 
-]
-<rpl3.png, id=381, 774.895pt x 617.30624pt>
-File: rpl3.png Graphic file (type png)
- <use rpl3.png>
-Package pdftex.def Info: rpl3.png used on input line 146.
-(pdftex.def)             Requested size: 147.49782pt x 117.49663pt.
- [10
+] [10
 
- <./rpl3.png>]
-File: rpl3.png Graphic file (type png)
-
-<use rpl3.png>
-Package pdftex.def Info: rpl3.png used on input line 146.
-(pdftex.def)             Requested size: 147.49782pt x 117.49663pt.
- [11
+] [11
 
 ]
-File: rpl3.png Graphic file (type png)
- <use rpl3.png>
-Package pdftex.def Info: rpl3.png used on input line 146.
-(pdftex.def)             Requested size: 147.49782pt x 117.49663pt.
+<rpl1.png, id=431, 700.6175pt x 584.1825pt>
+File: rpl1.png Graphic file (type png)
+ <use rpl1.png>
+Package pdftex.def Info: rpl1.png used on input line 150.
+(pdftex.def)             Requested size: 147.49782pt x 122.98502pt.
  [12
 
-]
-File: rpl3.png Graphic file (type png)
- <use rpl3.png>
-Package pdftex.def Info: rpl3.png used on input line 146.
-(pdftex.def)             Requested size: 147.49782pt x 117.49663pt.
+ <./rpl1.png>]
+<rpl2.png, id=458, 628.3475pt x 551.05875pt>
+File: rpl2.png Graphic file (type png)
+ <use rpl2.png>
+Package pdftex.def Info: rpl2.png used on input line 150.
+(pdftex.def)             Requested size: 147.49782pt x 129.34746pt.
  [13
 
-]
-<TSCh.jpeg, id=499, 3166.83125pt x 942.52126pt>
+ <./rpl2.png>]
+<rpl3.png, id=485, 774.895pt x 617.30624pt>
+File: rpl3.png Graphic file (type png)
+ <use rpl3.png>
+Package pdftex.def Info: rpl3.png used on input line 150.
+(pdftex.def)             Requested size: 147.49782pt x 117.49663pt.
+ [14
+
+ <./rpl3.png>]
+<TSCh.jpeg, id=512, 3166.83125pt x 942.52126pt>
 File: TSCh.jpeg Graphic file (type jpg)
  <use TSCh.jpeg>
-Package pdftex.def Info: TSCh.jpeg used on input line 179.
+Package pdftex.def Info: TSCh.jpeg used on input line 183.
 (pdftex.def)             Requested size: 307.28987pt x 91.45322pt.
- [14
+ [15
 
  <./TSCh.jpeg>]
 File: TSCh.jpeg Graphic file (type jpg)
  <use TSCh.jpeg>
-Package pdftex.def Info: TSCh.jpeg used on input line 179.
-(pdftex.def)             Requested size: 307.28987pt x 91.45322pt.
- [15
-
-]
-File: TSCh.jpeg Graphic file (type jpg)
- <use TSCh.jpeg>
-Package pdftex.def Info: TSCh.jpeg used on input line 179.
+Package pdftex.def Info: TSCh.jpeg used on input line 183.
 (pdftex.def)             Requested size: 307.28987pt x 91.45322pt.
  [16
 
 ]
 File: TSCh.jpeg Graphic file (type jpg)
  <use TSCh.jpeg>
-Package pdftex.def Info: TSCh.jpeg used on input line 179.
+Package pdftex.def Info: TSCh.jpeg used on input line 183.
 (pdftex.def)             Requested size: 307.28987pt x 91.45322pt.
  [17
 
 ]
-<collision.png, id=611, 2763.32375pt x 1060.96375pt>
-File: collision.png Graphic file (type png)
- <use collision.png>
-Package pdftex.def Info: collision.png used on input line 208.
-(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
-
-[18
-
- <./collision.png>]
-File: collision.png Graphic file (type png)
- <use collision.png>
-Package pdftex.def Info: collision.png used on input line 208.
-(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
- [19
+File: TSCh.jpeg Graphic file (type jpg)
+ <use TSCh.jpeg>
+Package pdftex.def Info: TSCh.jpeg used on input line 183.
+(pdftex.def)             Requested size: 307.28987pt x 91.45322pt.
+ [18
 
 ]
-File: collision.png Graphic file (type png)
- <use collision.png>
-Package pdftex.def Info: collision.png used on input line 208.
-(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
+<col1.png, id=618, 868.24374pt x 427.5975pt>
+File: col1.png Graphic file (type png)
+ <use col1.png>
+Package pdftex.def Info: col1.png used on input line 212.
+(pdftex.def)             Requested size: 215.10196pt x 105.93346pt.
+ [19
+
+ <./col1.png>]
+File: col1.png Graphic file (type png)
+
+<use col1.png>
+Package pdftex.def Info: col1.png used on input line 212.
+(pdftex.def)             Requested size: 215.10196pt x 105.93346pt.
  [20
 
 ]
-File: collision.png Graphic file (type png)
-
-<use collision.png>
-Package pdftex.def Info: collision.png used on input line 208.
-(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
+File: col1.png Graphic file (type png)
+ <use col1.png>
+Package pdftex.def Info: col1.png used on input line 212.
+(pdftex.def)             Requested size: 215.10196pt x 105.93346pt.
  [21
 
-] (./presentation.toc) [22
+]
+File: col1.png Graphic file (type png)
+ <use col1.png>
+Package pdftex.def Info: col1.png used on input line 212.
+(pdftex.def)             Requested size: 215.10196pt x 105.93346pt.
+ [22
 
-] [23
+] (./presentation.toc) [23
 
 ] [24
 
 ] [25
 
-]
-(./presentation.toc) [26
+] [26
 
-] [27
+] (./presentation.toc) [27
 
-] <layers.png, id=920, 745.78625pt x 677.53125pt>
-File: layers.png Graphic file (type png)
+] [28
 
-<use layers.png>
-Package pdftex.def Info: layers.png used on input line 280.
-(pdftex.def)             Requested size: 147.49782pt x 133.99445pt.
- [28
+] [29
 
- <./layers.png>]
-<2,3steps.png, id=948, 1186.4325pt x 610.28pt>
-File: 2,3steps.png Graphic file (type png)
- <use 2,3steps.png>
-Package pdftex.def Info: 2,3steps.png used on input line 307.
-(pdftex.def)             Requested size: 215.10196pt x 110.63718pt.
-
-Overfull \vbox (4.45316pt too high) detected at line 307
- []
-
-[29
-
- <./2,3steps.png>] (./presentation.toc) [30
+] [30
 
 ] [31
 
-] (./presentation.toc)
-[32
-
-] [33
-
-] [34
-
-] [35
-
-] [36
-
-] [37
-
-] [38
-
-] (./presentation.toc) [39
+] [32
 
 ]
-<reserve.png, id=1298, 866.23625pt x 542.025pt>
-File: reserve.png Graphic file (type png)
- <use reserve.png>
-Package pdftex.def Info: reserve.png used on input line 390.
-(pdftex.def)             Requested size: 142.6949pt x 89.28139pt.
+<layers.png, id=1016, 745.78625pt x 677.53125pt>
+File: layers.png Graphic file (type png)
+ <use layers.png>
+Package pdftex.def Info: layers.png used on input line 285.
+(pdftex.def)             Requested size: 147.49782pt x 133.99445pt.
+ [33
 
-<reserv1.png, id=1299, 1150.2975pt x 685.56125pt>
-File: reserv1.png Graphic file (type png)
- <use reserv1.png>
-Package pdftex.def Info: reserv1.png used on input line 390.
-(pdftex.def)             Requested size: 142.6949pt x 85.0359pt.
- [40
-
- <./reserve.png> <./reserv1.png>] (./presentation.toc) [41
+ <./layers.png>]
+File: layers.png Graphic file (type png)
+ <use layers.png>
+Package pdftex.def Info: layers.png used on input line 285.
+(pdftex.def)             Requested size: 147.49782pt x 133.99445pt.
+ [34
 
 ]
-<reserve2.png, id=1369, 1551.7975pt x 685.56125pt>
-File: reserve2.png Graphic file (type png)
- <use reserve2.png>
-Package pdftex.def Info: reserve2.png used on input line 422.
-(pdftex.def)             Requested size: 215.10196pt x 95.02599pt.
- [42
+File: layers.png Graphic file (type png)
+ <use layers.png>
+Package pdftex.def Info: layers.png used on input line 285.
+(pdftex.def)             Requested size: 147.49782pt x 133.99445pt.
+ [35
 
- <./reserve2.png>] <9nq6n.png, id=1397, 131.49126pt x 56.21pt>
-File: 9nq6n.png Graphic file (type png)
- <use 9nq6n.png>
-Package pdftex.def Info: 9nq6n.png used on input line 446.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+]
+<2,3steps.png, id=1096, 1186.4325pt x 610.28pt>
+File: 2,3steps.png Graphic file (type png)
+ <use 2,3steps.png>
+Package pdftex.def Info: 2,3steps.png used on input line 312.
+(pdftex.def)             Requested size: 184.3758pt x 94.83453pt.
+ [36
+
+ <./2,3steps.png>]
+File: 2,3steps.png Graphic file (type png)
+ <use 2,3steps.png>
+Package pdftex.def Info: 2,3steps.png used on input line 312.
+(pdftex.def)             Requested size: 184.3758pt x 94.83453pt.
+ [37
+
+]
+File: 2,3steps.png Graphic file (type png)
+ <use 2,3steps.png>
+Package pdftex.def Info: 2,3steps.png used on input line 312.
+(pdftex.def)             Requested size: 184.3758pt x 94.83453pt.
+ [38
+
+]
+File: 2,3steps.png Graphic file (type png)
+ <use 2,3steps.png>
+Package pdftex.def Info: 2,3steps.png used on input line 312.
+(pdftex.def)             Requested size: 184.3758pt x 94.83453pt.
+
+[39
+
+] (./presentation.toc) [40
+
+]
+<collision.png, id=1242, 2763.32375pt x 1060.96375pt>
+File: collision.png Graphic file (type png)
+ <use collision.png>
+Package pdftex.def Info: collision.png used on input line 346.
+(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
+
+Overfull \vbox (4.82555pt too high) detected at line 346
+ []
+
+[41
+
+ <./collision.png>]
+File: collision.png Graphic file (type png)
+ <use collision.png>
+Package pdftex.def Info: collision.png used on input line 346.
+(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
+
+Overfull \vbox (4.82555pt too high) detected at line 346
+ []
+
+[42
+
+]
+File: collision.png Graphic file (type png)
+ <use collision.png>
+Package pdftex.def Info: collision.png used on input line 346.
+(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
+
+Overfull \vbox (4.82555pt too high) detected at line 346
+ []
 
 [43
 
- <./9nq6n.png>] (./presentation.toc) [44
-
-] [45
-
 ]
-<oie_AlevPnyh9eiC.png, id=1504, 592.37704pt x 394.91803pt>
-File: oie_AlevPnyh9eiC.png Graphic file (type png)
+File: collision.png Graphic file (type png)
+ <use collision.png>
+Package pdftex.def Info: collision.png used on input line 346.
+(pdftex.def)             Requested size: 245.83282pt x 94.38176pt.
 
-<use oie_AlevPnyh9eiC.png>
-Package pdftex.def Info: oie_AlevPnyh9eiC.png used on input line 487.
-(pdftex.def)             Requested size: 291.92444pt x 194.61427pt.
-
-Overfull \vbox (11.50778pt too high) detected at line 487
+Overfull \vbox (4.82555pt too high) detected at line 346
  []
 
-[46
+[44
 
- <./oie_AlevPnyh9eiC.png>]
-<oie_HDUVTapLLM19.png, id=1533, 592.37704pt x 394.91803pt>
-File: oie_HDUVTapLLM19.png Graphic file (type png)
+] (./presentation.toc) [45
 
-<use oie_HDUVTapLLM19.png>
-Package pdftex.def Info: oie_HDUVTapLLM19.png used on input line 503.
-(pdftex.def)             Requested size: 291.92444pt x 194.61427pt.
+] [46
 
-Overfull \vbox (11.50778pt too high) detected at line 503
- []
+] [47
 
-[47
+] [48
 
- <./oie_HDUVTapLLM19.png>]
-<oie_tsvdkqnj4zdz.png, id=1563, 592.37704pt x 394.91803pt>
-File: oie_tsvdkqnj4zdz.png Graphic file (type png)
+] [49
 
-<use oie_tsvdkqnj4zdz.png>
-Package pdftex.def Info: oie_tsvdkqnj4zdz.png used on input line 517.
-(pdftex.def)             Requested size: 291.92444pt x 194.61427pt.
+] [50
 
-Overfull \vbox (11.50778pt too high) detected at line 517
- []
-
-[48
-
- <./oie_tsvdkqnj4zdz.png>] [49
+] [51
 
 ]
-Missing character: There is no â in font cmss10!
-Missing character: There is no € in font cmss10!
-Missing character: There is no ” in font cmss10!
- [50
+(./presentation.toc) [52
 
- </usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf>] [5
-1
+] <using6top.png, id=1587, 1004.75375pt x 683.55376pt>
+File: using6top.png Graphic file (type png)
 
+<use using6top.png>
+Package pdftex.def Info: using6top.png used on input line 392.
+(pdftex.def)             Requested size: 184.3758pt x 125.4333pt.
+ [53
 
-] [52
-
-
-] [53
-
+ <./using6top.png>]
+File: using6top.png Graphic file (type png)
+ <use using6top.png>
+Package pdftex.def Info: using6top.png used on input line 392.
+(pdftex.def)             Requested size: 184.3758pt x 125.4333pt.
+ [54
 
 ]
+File: using6top.png Graphic file (type png)
+
+<use using6top.png>
+Package pdftex.def Info: using6top.png used on input line 392.
+(pdftex.def)             Requested size: 184.3758pt x 125.4333pt.
+ [55
+
+] (./presentation.toc) [56
+
+]
+<avoid.jpeg, id=1707, 2063.71pt x 942.52126pt>
+File: avoid.jpeg Graphic file (type jpg)
+ <use avoid.jpeg>
+Package pdftex.def Info: avoid.jpeg used on input line 426.
+(pdftex.def)             Requested size: 228.31271pt x 104.2673pt.
+ [57
+
+ <./avoid.jpeg>]
+File: avoid.jpeg Graphic file (type jpg)
+ <use avoid.jpeg>
+Package pdftex.def Info: avoid.jpeg used on input line 426.
+(pdftex.def)             Requested size: 228.31271pt x 104.2673pt.
+ [58
+
+]
+File: avoid.jpeg Graphic file (type jpg)
+ <use avoid.jpeg>
+Package pdftex.def Info: avoid.jpeg used on input line 426.
+(pdftex.def)             Requested size: 228.31271pt x 104.2673pt.
+ [59
+
+] (./presentation.toc) [60
+
+]
+<reserve2.png, id=1825, 1551.7975pt x 685.56125pt>
+File: reserve2.png Graphic file (type png)
+ <use reserve2.png>
+Package pdftex.def Info: reserve2.png used on input line 458.
+(pdftex.def)             Requested size: 215.10196pt x 95.02599pt.
+ [61
+
+ <./reserve2.png>]
+File: reserve2.png Graphic file (type png)
+ <use reserve2.png>
+Package pdftex.def Info: reserve2.png used on input line 458.
+(pdftex.def)             Requested size: 215.10196pt x 95.02599pt.
+ [62
+
+]
+File: reserve2.png Graphic file (type png)
+ <use reserve2.png>
+Package pdftex.def Info: reserve2.png used on input line 458.
+(pdftex.def)             Requested size: 215.10196pt x 95.02599pt.
+ [63
+
+]
+File: reserve2.png Graphic file (type png)
+
+<use reserve2.png>
+Package pdftex.def Info: reserve2.png used on input line 458.
+(pdftex.def)             Requested size: 215.10196pt x 95.02599pt.
+ [64
+
+] <9nq6n.png, id=1932, 131.49126pt x 56.21pt>
+File: 9nq6n.png Graphic file (type png)
+
+<use 9nq6n.png>
+Package pdftex.def Info: 9nq6n.png used on input line 482.
+(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+ [65
+
+ <./9nq6n.png>]
+File: 9nq6n.png Graphic file (type png)
+ <use 9nq6n.png>
+Package pdftex.def Info: 9nq6n.png used on input line 482.
+(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+ [66
+
+]
+File: 9nq6n.png Graphic file (type png)
+ <use 9nq6n.png>
+Package pdftex.def Info: 9nq6n.png used on input line 482.
+(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+
+[67
+
+]
+File: 9nq6n.png Graphic file (type png)
+ <use 9nq6n.png>
+Package pdftex.def Info: 9nq6n.png used on input line 482.
+(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+ [68
+
+]
+File: 9nq6n.png Graphic file (type png)
+ <use 9nq6n.png>
+Package pdftex.def Info: 9nq6n.png used on input line 482.
+(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+ [69
+
+]
+File: 9nq6n.png Graphic file (type png)
+ <use 9nq6n.png>
+Package pdftex.def Info: 9nq6n.png used on input line 482.
+(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+ [70
+
+]
+(./presentation.toc) [71
+
+] <SIM.png, id=2135, 1290.8225pt x 664.4825pt>
+File: SIM.png Graphic file (type png)
+
+<use SIM.png>
+Package pdftex.def Info: SIM.png used on input line 504.
+(pdftex.def)             Requested size: 291.92444pt x 150.27267pt.
+ [72
+
+ <./SIM.png>] (./presentation.toc) [73
+
+]
+<Graph2.png, id=2203, 789.83606pt x 592.37704pt>
+File: Graph2.png Graphic file (type png)
+ <use Graph2.png>
+Package pdftex.def Info: Graph2.png used on input line 518.
+(pdftex.def)             Requested size: 245.83282pt x 184.36714pt.
+
+Overfull \vbox (1.26065pt too high) detected at line 518
+ []
+
+[74
+
+ <./Graph2.png>] <pro.png, id=2231, 1106.1325pt x 917.4275pt>
+File: pro.png Graphic file (type png)
+ <use pro.png>
+Package pdftex.def Info: pro.png used on input line 550.
+(pdftex.def)             Requested size: 122.91406pt x 101.93924pt.
+
+[75
+
+ <./pro.png>]
+File: pro.png Graphic file (type png)
+ <use pro.png>
+Package pdftex.def Info: pro.png used on input line 550.
+(pdftex.def)             Requested size: 122.91406pt x 101.93924pt.
+ [76
+
+]
+<Graph3.png, id=2285, 789.83606pt x 592.37704pt>
+File: Graph3.png Graphic file (type png)
+ <use Graph3.png>
+Package pdftex.def Info: Graph3.png used on input line 566.
+(pdftex.def)             Requested size: 245.83282pt x 184.36714pt.
+
+Overfull \vbox (1.26065pt too high) detected at line 566
+ []
+
+[77
+
+ <./Graph3.png>] <Graph4.png, id=2312, 789.83606pt x 592.37704pt>
+File: Graph4.png Graphic file (type png)
+
+<use Graph4.png>
+Package pdftex.def Info: Graph4.png used on input line 580.
+(pdftex.def)             Requested size: 245.83282pt x 184.36714pt.
+
+Overfull \vbox (1.26065pt too high) detected at line 580
+ []
+
+[78
+
+ <./Graph4.png>] [79
+
+]
+<ali.pdf, id=2367, page=15, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 15>
+Package pdftex.def Info: ali.pdf, page15 used on input line 636.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2368, page=19, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 19>
+Package pdftex.def Info: ali.pdf, page19 used on input line 636.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2369, page=43, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 43>
+Package pdftex.def Info: ali.pdf, page43 used on input line 636.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2370, page=54, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 54>
+Package pdftex.def Info: ali.pdf, page54 used on input line 636.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2371, page=66, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 66>
+Package pdftex.def Info: ali.pdf, page66 used on input line 636.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2372, page=69, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 69>
+Package pdftex.def Info: ali.pdf, page69 used on input line 636.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+Overfull \hbox (5.27382pt too wide) in paragraph at lines 636--636
+[][]  
+ []
+
+[80
+
+ <./ali.pdf> <./ali.pdf> <./ali.pdf> <./ali.pdf> <./ali.pdf> <./ali.pdf>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1211,67 +1429,41 @@ Missing character: There is no ” in font cmss10!
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 616.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 616.
- (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 616.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 616.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 638.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 638.
 
+(./presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 638.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 638.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 2197312308BE9DDEC6FC043930BD3C0E;900.
 
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: AC0563867A80D6568612BB85DBE6BA34;743
-(rerunfilecheck)             After:  81B8E9E4F1F22C382B8265E36D6607DA;743.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 616.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 638.
  ) 
 Here is how much of TeX's memory you used:
- 17217 strings out of 494910
- 330612 string characters out of 6179836
- 392321 words of memory out of 5000000
- 19944 multiletter control sequences out of 15000+600000
+ 17267 strings out of 494910
+ 330064 string characters out of 6179836
+ 391651 words of memory out of 5000000
+ 19938 multiletter control sequences out of 15000+600000
  12704 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 56i,16n,61p,413b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Outline0.4.1.43} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.3.40} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.2.38} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.3.1.31} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.2.2.29} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.2.1.25} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.1.2.21} has been referenced but does not e
-xist, replaced by a fixed one
-
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (53 pages, 1395261 bytes).
+ 56i,16n,55p,413b,740s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on presentation.pdf (80 pages, 2743120 bytes).
 PDF statistics:
- 1805 PDF objects out of 2073 (max. 8388607)
- 1684 compressed objects within 17 object streams
- 131 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2501 PDF objects out of 2984 (max. 8388607)
+ 2328 compressed objects within 24 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 314 words of extra memory for PDF output out of 10000 (max. 10000000)
 

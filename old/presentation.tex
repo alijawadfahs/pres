@@ -34,7 +34,7 @@
 Laboratoire d'Informatique de Grenoble (LIG), Team Drakkar \\
 VERIMAG,Synchrone\\
 Supervised by : Olivier Alphand, Franck Rousseau \\
- Karine Altisen, Stephane Devismes 
+ Karine Altisen, St\'ephane Devismes 
  }
 
 \date{Master thesis, \nth{21} of June,2017}
@@ -93,14 +93,14 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
     \end{itemize}
   \end{block} 
   
-  
+\only<4-6>  {
 \begin{block}{Wireless Sensor Networks}
     \begin{itemize}
     \item<4-> A source of communication between the IoT nodes.
     \item<5-> Main contributions are : low power, low cost.
     \item<6->  IEEE802.15.4 one of the main standard for those Networks
     \end{itemize}
-    \end{block}
+    \end{block}}
 
   
   
@@ -126,16 +126,20 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
     \item<2-> The Physical Layer and Medium Access Control Layer.
     
     \item<3-> Uses RPL to set-up A DODAG.
-    \item<4> A converge cast towards a sink. 
+    \item<4-> A converge cast towards a sink. 
     
     \end{itemize}
     \end{block}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.48\linewidth}
 \centering
-\begin{figure}[p]
+ \begin{figure}[p]
 
-\includegraphics[width=\linewidth]{rpl3.png}
+ \only<3>{\includegraphics[width=\linewidth]{rpl1.png}}
+  \only<4>{\includegraphics[width=\linewidth]{rpl2.png}}
+  \only<5>{\includegraphics[width=\linewidth]{rpl3.png}}
+  
+  
 \end{figure}
 \end{minipage}
 
@@ -189,7 +193,7 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \begin{block}{IEEE802.15.4e TSCH}
     \begin{itemize}
     \item  Collision free dedicated cells.
-    \item<2-> In the distributed approach Collision.
+    \item<2-> Collisions in distributed approach .
     \item<3-> Lack of central entity.
     \item<4-> Collision are very expensive in Wireless sensor Networks.
       
@@ -198,7 +202,7 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
   \centering
 \begin{figure}[p]
 
-\includegraphics[width=0.8\linewidth]{collision.png}
+\includegraphics[width=0.7\linewidth]{col1.png}
 \end{figure}  
     
 
@@ -215,7 +219,7 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
   \begin{itemize}
   \item {Reducing the collisions in TSCH dedicated cells.}
   \item<2-> {Modifying the Cell reserving process without introducing new overhead on the network}
-  \item<3-> {Maintaining a good end-to-end communication latency}
+  \item<3-> {Creating a flexible mechanism, compatible with all scheduling functions }
 
   
   \end{itemize}
@@ -237,12 +241,13 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 
 
 
-\begin{block}{IEEE802.15.4e \& 6top}
+\begin{block}{6TiSCH}
     \begin{itemize}
     \item The standard have defined TSCH schedule but the control of this schedule  was left for other protocols for flexibility and optimization.
-    \item 6TiSCH is the merge of IPv6 and TSCH. 
-    \item 6TiSCH operation (6top) is a sublayer of 6TiSCH.
-    \item 6top is responsible for the cell addition and deletion. 
+    \item<2-> 6TiSCH purpose is the Integration of IPv6 and TSCH. 
+    \item<3-> 6TiSCH operation (6top) is a sublayer of 6TiSCH.
+    \item<4-> 6top contains the scheduling function. 
+    \item<5> 6top is responsible for the cell addition and deletion. 
     
     \end{itemize}
     \end{block}
@@ -261,9 +266,9 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \begin{block}{6top}
 
     \begin{itemize}
-    \item orchestrates all communications using the TSCH schedule.
-    \item allows the nodes to request for new TSCH cells and update the TSCH schedule table accordingly.
-    \item 6top enables the distributed scheduling in 6TiSCH network.
+    \item Orchestrates all communications using the TSCH schedule.
+    \item<2-> Allows the nodes to request for new TSCH cells.
+    \item<3-> 6top enables the distributed scheduling in 6TiSCH network.
     \end{itemize}
     \end{block}
 
@@ -291,17 +296,17 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 
 \begin{block}{IEEE802.15.4e \& 6top}
     \begin{itemize}
-    \item 6top transaction assign cells to communicating nodes . 
-    \item The scheduling function in 6top will choose the cells randomly from TSCH table.
-    \item The transaction is done in the shared slot. 
-    \item The transaction will be received by the neighbor nodes by dropped due too MAC filtering of the messages. 
+    \item 6top transactions: negotiation to Add/Delete/Relocate cells. 
+    \item<2-> Two types: 2-step and 3-step.
+    \item<3-> The transaction is done in the shared slot. 
+    \item<4-> The transaction will be received by the neighbor nodes by dropped due too MAC filtering of the messages. 
     
     \end{itemize}
     \end{block}
     \centering
 \begin{figure}[p]
 
-\includegraphics[width=0.7\linewidth]{2,3steps.png}
+\item<2-> \includegraphics[width=0.6\linewidth]{2,3steps.png}
 \end{figure}
 
 \end{frame}
@@ -326,13 +331,16 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 
     \begin{itemize}
     \item Nodes have no information about the neighbors.
-    \item 6top will select cells randomly form the TSCH schedule. 
-    \item If another neighbor node is using the same cell a collision will occur. 
-    \item Collisions are expensive.
+    \item<2-> Scheduling function cell selection does not consider the neighbor's cells. 
+    \item<3-> If another neighbor node is using the same cell a collision will occur. 
+    \item<4-> Collisions are expensive.
     \end{itemize}
     \end{block}
 
+\begin{figure}[p]
 
+\item<2-> \includegraphics[width=0.8\linewidth]{collision.png}
+\end{figure}
 
 
 \end{frame}
@@ -345,19 +353,18 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \begin{withoutheadline}
 \begin{frame}{Proposed Mechanism Criteria}
 \begin{itemize}
-    \item Our objective is to Reduce the collisions in the dedicatd cells.\pause
-    \item Using local mutual execlusion we can prevent collisions.\pause  
-    \item Since we are wrking with distributed system, then all the information is local for each node. \pause
+    \item Our objective is to Reduce the collisions in the dedicated cells.\pause
+    \item Using local mutual exclusion we can prevent collisions.\pause  
+    \item Since we are working with distributed system, then all the information is local for each node. \pause
     \item Using the 6top transaction we can collect information about neighbors. \pause
     \item From the collected information we can prevent the nodes selecting the same cell. \pause
     \end{itemize}
 
 \end{frame}
 \end{withoutheadline}
-
-\subsection{Reserve Table}
+\subsection{Using 6top Transactions Collect neighbor's cells}
 \begin{withoutheadline}
-\begin{frame}{Reserve Table}
+\begin{frame}{Using 6top Transactions Collect neighbor's cells}
 
 
 \setbeamercolor{block title}{bg=blue!30,fg=black}
@@ -368,10 +375,39 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \begin{block}
 
     \begin{itemize}
-    \item The nodes will recieve the 6top transaction from the neighbor nodes.
-    \item The cells reserved by neighbors will be reserved by a structure similar to TSCH table. 
-    \item Scheduling function will avoid selecting cells found in this structure. 
-    \item 6top will control this table so any scheduling function can be used with our implementation.
+    \item D will transmit an Add request to B.
+    \item<2-> B will reply with the Add Response that will contain the cells. 
+    \item<3-> The Add Response is transmitted in the shared cell, E \& F will receive and extract the cells.  
+    
+    \end{itemize}
+    \end{block}
+
+\centering
+
+\begin{center}
+\includegraphics[width=0.6\linewidth]{using6top.png}
+
+\end{center}
+
+\end{frame}
+\end{withoutheadline}
+\subsection{Avoid Table}
+\begin{withoutheadline}
+\begin{frame}{Avoid Table}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+
+\begin{block}
+
+    \begin{itemize}
+
+    \item The cells reserved by neighbors will be saved by a structure similar to TSCH table. 
+    \item<2-> Scheduling function will avoid selecting cells found in this structure. 
+    \item<3-> 6top will manage this table.
     \end{itemize}
     \end{block}
 
@@ -379,8 +415,8 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \begin{itemize}
 \item[]
 \begin{center}
-\includegraphics[width=0.5\linewidth]{reserve.png}
-\includegraphics[width=0.5\linewidth]{reserv1.png}
+\includegraphics[width=0.8\linewidth]{avoid.jpeg}
+
 \end{center}
 \end{itemize}
 
@@ -405,9 +441,9 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 
     \begin{itemize}
     \item The assumption of 100\% successful dilevery is not realistic.
-    \item The 6top Transaction maybe lost due too environment effects. 
-    \item The loss of the transaction increase the probability of collisions. 
-    \item By saving the reserved cells in a buffer, and sending the history of reserved cells this probability can be reduced.
+    \item<2-> The 6top Transaction maybe lost due too environment effects. 
+    \item<3-> The loss of the transaction increase the probability of collisions. 
+    \item<4-> By saving the reserved cells in a buffer, and sending the buffer this probability can be reduced.
      
     
     \end{itemize}
@@ -428,29 +464,65 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 
 \begin{itemize}
     \item We have created a probablistic model to calaculate the optimal length of the buffer.
-    \item $p$ is the probability of successful transmission.
-    \item we are confidence with a probability $P_{o}$ that one of the transmission is successful.
-    \item $k$ is the number of retransmission (the optimal length of the buffer). 
-    \item we end up with the following equation using binomial distribution:
+    \item<2-> $p$ is the probability of successful transmission.
+    \item<3-> we are confidence with a probability $P_{o}$ that one of the transmission is successful.
+    \item<4-> $k$ is the number of retransmission (the optimal length of the buffer). 
+    \item<5-> we end up with the following equation using binomial distribution:
     
     \end{itemize}
     
  \centering
 \begin{figure}[p]
 
-\includegraphics[width=0.3\linewidth]{9nq6n.png}
+\item<5-> \includegraphics[width=0.3\linewidth]{9nq6n.png}
 \end{figure}
 \begin{itemize}
-\item According to this equation, and by taking the worst case scenario a buffer of length 10 can assure us 95\% of success
+\item<6-> According to this equation, and by taking the worst case scenario a buffer of length 10 can assure us 95\% of success
  \end{itemize}
 \end{frame}
 \end{withoutheadline}
 %%%%%%%%%%%%%%%%%%%%%%%RESULTS%%%%%%%%%%%%%%
 
-\section{Results}
-\subsection{Mechanisim and Results}
+\section{Simulator and Results}
+\subsection{Simulator}
 \begin{withoutheadline}
-\begin{frame}{Mechanisim and Results}
+\begin{frame}{Simulator Architecture}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\begin{figure}[p]
+
+\includegraphics[width=0.95\linewidth]{SIM.png}
+\caption{Simulator Architecture}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+\subsection{ Results}
+\begin{withoutheadline}
+\begin{frame}{Results}
+
+\begin{figure}[p]
+
+\includegraphics[width=0.8\linewidth]{Graph2.png}
+\caption{Simulation of the Number of Collided Tx Cells as Function of Cycle Number (Time)}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+
+
+
+
+\begin{withoutheadline}
+\begin{frame}{Cell Buffer}
 
 
 \setbeamercolor{block title}{bg=blue!30,fg=black}
@@ -458,44 +530,35 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \setbeamertemplate{blocks}[rounded][shadow=false]
 
 
-\begin{block}{Methodology}
+\begin{block}
 
     \begin{itemize}
-    \item We used the 6TiSCH simulator \href{https://bitbucket.org/6tisch/simulator/src}{\beamergotobutton{Link}}, the work of watteyne et al. After implementing our approach and fixing some problems in the simultor to make it more realistic. 
-    \item Simulations over 100 nodes, over 100 run on the same topology to assure fairness.
-    \item We have tried different types of topologies, and had the same results for all of them. 
-    \item The simulator updates are in my \href{https://github.com/alijawadfahs/6tisch}{\beamergotobutton{GitHub}}, Results and documentation are in my \href{https://masterthesis2017.000webhostapp.com/}{\beamergotobutton{WIKI PAGE}} along with my reports and daily progress.
+    \item The lost 6top transactions. 
+\item<2-> Special Case That Induce Collisions.
+    
+     
     
     \end{itemize}
     \end{block}
 
-
-\end{frame}
-\end{withoutheadline}
-
-\begin{withoutheadline}
-\begin{frame}{Results}
-
+\centering
 \begin{figure}[p]
 
-\includegraphics[width=0.95\linewidth]{oie_AlevPnyh9eiC.png}
-\caption{Simulation of the Number of Collided Txs Cells as Function of Cycle Number (Time)}
+\item<2-> \includegraphics[width=0.4\linewidth]{pro.png}
 \end{figure}
 
-
-
 \end{frame}
 \end{withoutheadline}
 
 
 
 \begin{withoutheadline}
-\begin{frame}{ Results}
+\begin{frame}{Comparison with Housekeeping }
 
 \begin{figure}[p]
 
-\includegraphics[width=0.95\linewidth]{oie_HDUVTapLLM19.png}
-\caption{Simulation of the Number of Cells Reserved by 2 Nodes as Function of Cycle Number (Time)}
+\includegraphics[width=0.8\linewidth]{Graph3.png}
+\caption{Simulation of the Number of Collided Tx Cells as Function of Cycle Number (Time) - comparison with the housekeeping approach}
 \end{figure}
 
 
@@ -504,12 +567,12 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \end{withoutheadline}
 
 \begin{withoutheadline}
-\begin{frame}{Related Work Results comparison}
+\begin{frame}{Comparison with Housekeeping}
 
 \begin{figure}[p]
 
-\includegraphics[width=0.95\linewidth]{oie_tsvdkqnj4zdz.png}
-\caption{Simulation of the Number of Collided Txs Cells as Function of Cycle Number (Time) - comparison with the housekeeping approach }
+\includegraphics[width=0.8\linewidth]{Graph4.png}
+\caption{Simulation of the Number of Collided Packets as Function of Cycle Number (Time) - comparison with the housekeeping approach }
 \end{figure}
 
 
@@ -525,9 +588,8 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
   \item
     Our implementation introduce  \alert{no overhead } in the network.
   \item
-    The implementation \alert{achieved 60\% reduction} in the number of collided Tx cells.
-  \item
-    The implementation have a positive side effect which is \alert{reducing the interference in the network }.
+    The implementation \alert{achieved 60\% reduction} in the number of collided Tx cells and \alert{70\% reduction} of the Collided Packets.
+  \item The Combination of Our approach and Housekeeping accomplish an \alert{ almost collision free dedicated cells}.
   \end{itemize}
   
   \begin{itemize}
@@ -535,82 +597,42 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
     Outlook
     \begin{itemize}
     \item
-     Our goal is to reach a place were we have collision free network, using more complex method.
+     Our goal is to reach a place were we have collision free network, using more complex methods.
     \item
-      Our prespective in this project was work on 6top, but our next steps is to work on the scheduling function to elimante collision.
+      Our prespective in this project was work on 6top, but our next steps is to study the effects of traffic in the protocols performances.
     \end{itemize}
   \end{itemize}
 \end{frame}
 \end{withoutheadline}
 
+\section*{last}
 
-% All of the following is optional and typically not needed. 
-\appendix
-\section<presentation>*{\appendixname}
-\subsection<presentation>*{For Further Reading}
+
 \begin{withoutheadline}
-\begin{frame}[allowframebreaks]
-  \frametitle<presentation>{For Further Reading}
-    
-  \begin{thebibliography}{1}
+\begin{frame}
 
-\bibitem{IEEEhowto:kopka}
-Q.Wang, and X. Vilajosana, \emph{ 6top Protocol (6P). Internet Engineering Task Force, Tech. Rep. draft-ietf-6tisch-6top-protocol-00 } \hskip 1em plus
-0.5em minus 0.4em\relax https://tools.ietf.org/html/draft-ietf-6tisch-6top-protocol-00 , April 2016.
 
-\bibitem{IEEEhowto:kopka}
-T. Watteyne et al, \emph{ Using IEEE 802.15.4e Time-Slotted Channel Hopping (TSCH) in the Internet of Things (IoT): Problem Statement } \hskip 1em plus
-  0.5em minus 0.4em\relax https://tools.ietf.org/html/rfc7554 , May 2015.
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\begin{tabular}{ccc}
+\includegraphics[page=15, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=19, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=43, width=0.3\textwidth]{ali.pdf} \\
 
-\bibitem{IEEEhowto:kopka}
-T. Winter et al, \emph{ RPL: IPv6 Routing Protocol for Low-Power and Lossy Networks } \hskip 1em plus
-  0.5em minus 0.4em\relax https://tools.ietf.org/html/rfc6550 , March 2012.
+\includegraphics[page=54, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=66, width=0.3\textwidth]{ali.pdf} &
+\includegraphics[page=69, width=0.3\textwidth]{ali.pdf} \\
 
-\bibitem{IEEEhowto:kopka}
-D. Dujovne et al, \emph{6tisch: deterministic ip-enabled industrial internet(of things)} \hskip 1em plus
-  0.5em minus 0.4em\relax IEEE Communications Magazine — Communications Standards Supplement ,December 2014.
-  
-\bibitem{IEEEhowto:kopka}
-J. Tripathi et al, \emph{A Performance Evaluation Study of RPL: Routing Protocol for Low Power and Lossy Networks} \hskip 1em plus
-  0.5em minus 0.4em\relax  Information Sciences and Systems (CISS), 44th Annual Conference on (pp. 1-6). IEEE , March 2010.
 
-\bibitem{IEEEhowto:kopka}
-F. Theoleyre and G. Papadopoulos, \emph{Experimental Validation of a Distributed Self-Configured 6TiSCH with Traffic Isolation in Low Power Lossy Networks} \hskip 1em plus
-  0.5em minus 0.4em\relax  Proceedings of the 19th ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems (pp. 102-110). ACM , November 2017.
-  
-\bibitem{IEEEhowto:kopka}
-N. Accettura et al, \emph{A Decentralized Traffic Aware Scheduling in 6TiSCH Networks: Design and Experimental Evaluation} \hskip 1em plus
-  0.5em minus 0.4em\relax   IEEE Internet of Things Journal, 2(6), 455-470 , December 2015.
-  
-\bibitem{IEEEhowto:kopka}
-M. R. Palattella et al, \emph{On-the-Fly Bandwidth Reservation for 6TiSCH Wireless Industrial Networks} \hskip 1em plus
-  0.5em minus 0.4em\relax  IEEE Sensors Journal, 16(2), 550-560,  September 2015.
-  
-\bibitem{IEEEhowto:kopka}
-M. R. Palattella et al, \emph{Traffic Aware Scheduling Algorithm for Reliable Low-Power Multi-Hop IEEE 802.15.4e Networks} \hskip 1em plus
-  0.5em minus 0.4em\relax  IEEE 23rd International Symposium on Personal, Indoor and Mobile Radio Communications - (PIMRC),  September 2012.
- 
-\bibitem{IEEEhowto:kopka}
-N. Accettura et al, \emph{Decentralized Traffic Aware Scheduling for Multi-hop Low Power Lossy Networks in the Internet of Things} \hskip 1em plus
-  0.5em minus 0.4em\relax   In World of Wireless, Mobile and Multimedia Networks (WoWMoM), 2013 IEEE 14th International Symposium and Workshops on a (pp. 1-6). IEEE,  June 2013.
- 
-\bibitem{IEEEhowto:kopka}
-S. Duquennoy et al, \emph{Orchestra: Robust Mesh Networks Through Autonomously Scheduled TSCH} \hskip 1em plus
-  0.5em minus 0.4em\relax  Proceedings of the 13th ACM Conference on Embedded Networked Sensor Systems (pp. 337-350). ACM, November 2015.
 
-\bibitem{IEEEhowto:kopka}
-K. Muraoka et al, \emph{Simple Distributed Scheduling With Collision Detection in TSCH Networks} \hskip 1em plus
-  0.5em minus 0.4em\relax  IEEE Sensors Journal, 16(15), 5848-5849,  May 2016.
-  
-\bibitem{IEEEhowto:kopka}
-L. Lamport, \emph{Time, clocks, and the ordering of events in a distributed system} \hskip 1em plus
-  0.5em minus 0.4em\relax  Communications of the ACM, 21(7), 558-565, July 1978.
-  
-\bibitem{IEEEhowto:kopka}
-T. P. Duy , \emph{Distributed cell selection for scheduling function in 6TiSCH networks} \hskip 1em plus
-0.5em minus 0.4em\relax Computer Standards and Interfaces, 53, 80-88, March 2017.
 
-\end{thebibliography}
+\end{tabular}
+
+\begin{block}{}
+\centering Thanks for your attention!\\
+Questions?
+\end{block}
 \end{frame}
 \end{withoutheadline}
 \end{document}

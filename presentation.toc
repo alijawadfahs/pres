@@ -2,9 +2,9 @@
 \beamer@sectionintoc {1}{Introduction \& Background}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{General Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{IEEE802.15.4 Protocols}{12}{0}{1}
-\beamer@subsectionintoc {1}{3}{Project challenges \& Objectives}{14}{0}{1}
-\beamer@sectionintoc {2}{Proposed Mechanism}{16}{0}{2}
-\beamer@subsectionintoc {2}{1}{Using 6top Transaction}{16}{0}{2}
-\beamer@subsectionintoc {2}{2}{Avoid Table}{17}{0}{2}
-\beamer@subsectionintoc {2}{3}{Cell Buffer}{18}{0}{2}
-\beamer@subsectionintoc {2}{4}{Housekeeping Approach}{19}{0}{2}
+\beamer@subsectionintoc {1}{3}{Project challenges \& Objectives}{30}{0}{1}
+\beamer@sectionintoc {2}{Proposed Mechanism}{32}{0}{2}
+\beamer@subsectionintoc {2}{1}{Using 6top Transaction}{32}{0}{2}
+\beamer@subsectionintoc {2}{2}{Avoid Table}{33}{0}{2}
+\beamer@subsectionintoc {2}{3}{Cell Buffer}{34}{0}{2}
+\beamer@subsectionintoc {2}{4}{Housekeeping Approach}{35}{0}{2}

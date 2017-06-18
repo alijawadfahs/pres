@@ -27,7 +27,7 @@
 
 \end{frame}
 \end{withoutheadline}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   2   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{withoutheadline}
 \begin{frame}{General intoduction}{IEEE802.15.4}
@@ -66,27 +66,117 @@
 
 \end{frame}
 \end{withoutheadline}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%   IEEE802.15.4 Protocols  %%%%%%%%%%%%%%%%%%%%%%%
 \subsection{IEEE802.15.4 Protocols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   3   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{withoutheadline}
+\begin{frame}{IEEE802.15.4 Protocols}
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\begin{block}{IEEE802.15.4e TSCH}
+    \begin{itemize}
+    \item  IEEE802.15.4 defines the MAC and PHY layers. 
+    \item<2->  TSCH is an extension of the MAC layer of IEEE802.15.4.
+    \item<3->  Time/Frequency multiplexing of the bandwidth.
+    \item<4-> Shared cells.
+    \item<5-> Dedicated cells.
+    \end{itemize}
+    \end{block}
+
+\begin{figure}[p]
+
+ \only<2>{\includegraphics[width=\linewidth]{figures/TSCH1.png}}
+  \only<3>{\includegraphics[width=\linewidth]{figures/TSCH2.png}}
+  \only<4>{\includegraphics[width=\linewidth]{figures/TSCH3.png}}
+  \only<5>{\includegraphics[width=\linewidth]{figures/TSCH4.png}}
+    \only<6>{\includegraphics[width=\linewidth]{figures/TSCH5.png}}
+\end{figure}
+
+
+\end{frame}
+\end{withoutheadline}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   4   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{withoutheadline}
-\begin{frame}
+
+\begin{frame}{IEEE802.15.4 Protocols}
 
 
 \setbeamercolor{block title}{bg=blue!30,fg=black}
 \setbeamercolor{block body}{bg=blue!10,fg=black}
 \setbeamertemplate{blocks}[rounded][shadow=false]
+\begin{minipage}[t]{0.48\linewidth}
+
+\begin{block}{6TiSCH}
+    \begin{itemize}
+    \item  IEEE802.15.4 left the management of TSCH for other Protocols. 
+    \item<2->  6TiSCH offered the integration of TSCH over IPv6.
+    \item<3->  6TiSCH operation sublayer (6top) offered the management of TSCH:
+             \begin{itemize}
+             \item Centralized algorithm.
+             \item<4-> Distributed algorithm. 
+             \end{itemize}
+    \item<5-> 6top contains:
+     \begin{itemize}
+             \item 6top transactions.
+             \item<6-> Scheduling function. 
+             \end{itemize}
+    
+    \end{itemize}
+    \end{block}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\vskip 5em
+\begin{figure}[p]
+
+ \only<3>{\includegraphics[width=\linewidth]{figures/Cent.png}}
+  \only<4->{\includegraphics[width=\linewidth]{figures/Dist.png}}
+  
+\end{figure}
+
+\end{minipage}
+\end{frame}
+\end{withoutheadline}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  5   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{withoutheadline}
+\begin{frame}{IEEE802.15.4 Protocols}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\begin{block}{Cell Reservation Process}
+    \begin{itemize}
+    \item  Scheduling function decides new cell should be assigned.
+    \item<2-> Child node sends an Add request. 
+    \item<3-> Scheduling function decides which cells to be selected. 
+    \item<4-> Parent node replies with an Add response.
+    \item<5-> Cell is added and communication start.
+    \end{itemize}
+    \end{block}
+
+\begin{figure}[p]
+
+ \only<1>{\includegraphics[width=\linewidth]{figures/6top1.png}}
+  \only<2>{\includegraphics[width=\linewidth]{figures/6top2.png}}
+  \only<3>{\includegraphics[width=\linewidth]{figures/6top3.png}}
+  \only<4>{\includegraphics[width=\linewidth]{figures/6top4.png}}
+    \only<5>{\includegraphics[width=\linewidth]{figures/6top5.png}}
+\end{figure}
 
 
 
 
 \end{frame}
 \end{withoutheadline}
+
 
 \subsection{Project challenges \& Objectives}
 
-
 \begin{withoutheadline}
 \begin{frame}
 
@@ -100,3 +190,4 @@
 
 \end{frame}
 \end{withoutheadline}
+

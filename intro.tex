@@ -174,20 +174,85 @@
 \end{frame}
 \end{withoutheadline}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Objectives  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Project challenges \& Objectives}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  6   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{withoutheadline}
-\begin{frame}
+\begin{frame}{Project challenges \& Objectives}
 
 
 \setbeamercolor{block title}{bg=blue!30,fg=black}
 \setbeamercolor{block body}{bg=blue!10,fg=black}
 \setbeamertemplate{blocks}[rounded][shadow=false]
 
+\begin{block}{Collision in Dedicated Cells}
+    \begin{itemize}
+    \item Collision free Dedicated Cells?  
+    \item<2-> No central entity in distributed approach.
+    \item<3-> Neighbor nodes can select the same communication cell.
+    \item<5-> Collision at the reception Node.
+    \item<6-> Collision in terms of power, latency. 
+    \end{itemize}
+    \end{block}
 
+\begin{figure}[p]
+
+ \only<3>{\includegraphics[width=\linewidth]{figures/col1.png}}
+  \only<4>{\includegraphics[width=\linewidth]{figures/col2.png}}
+  \only<5->{\includegraphics[width=\linewidth]{figures/col3.png}}
+  
+\end{figure}
 
 
 \end{frame}
 \end{withoutheadline}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  7   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{withoutheadline}
+\begin{frame}{Project challenges \& Objectives}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\begin{minipage}[t]{0.48\linewidth}
+
+\begin{block}{Collision in Dedicated Cells}
+    \begin{itemize}
+    \item Housekeeping approach and cell relocation.
+    \item<2-> Tx housekeeping. 
+    \item<5-> Rx housekeeping. 
+    \item<7-> Dealing with collisions after they occur. Good idea ?
+    
+    \end{itemize}
+    \end{block}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\begin{figure}[p]
+ \only<2>{\includegraphics[width=\linewidth]{figures/hk1.png}}
+ \only<3>{\includegraphics[width=\linewidth]{figures/hk2.png}}
+  \only<4>{\includegraphics[width=\linewidth]{figures/hk3.png}}
+  \only<5>{\includegraphics[width=\linewidth]{figures/rx1.png}}
+  \only<6->{\includegraphics[width=\linewidth]{figures/rx2.png}}
+  
+\end{figure}
+\end{minipage}
+
+\end{frame}
+\end{withoutheadline}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  8   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{withoutheadline}
+\begin{frame}{Project Objectives}
+\begin{itemize}
+\item {Reducing the collisions in TSCH dedicated cells.}
+  \item<2-> {Modifying the Cell reserving process without introducing new overhead on the network}
+  \item<3-> {Creating a flexible mechanism, compatible with all scheduling functions }
+
+\end{itemize}
+
+\end{frame}
+\end{withoutheadline}

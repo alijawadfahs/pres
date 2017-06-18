@@ -25,32 +25,36 @@
 \headcommand {\beamer@subsectionentry {0}{1}{3}{30}{Project challenges \& Objectives}}\headcommand {\beamer@subsectionpages {12}{29}}
 \headcommand {\slideentry {1}{3}{1}{30/30}{Project challenges \& Objectives}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {1}{3}{2}{31/31}{Project challenges \& Objectives}{0}}
-\headcommand {\beamer@framepages {31}{31}}
-\headcommand {\sectionentry {2}{Proposed Mechanism}{32}{Proposed Mechanism}{0}}
-\headcommand {\beamer@sectionpages {3}{31}}
-\headcommand {\beamer@subsectionpages {30}{31}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{32}{Using 6top Transaction}}\headcommand {\beamer@subsectionpages {32}{31}}
-\headcommand {\slideentry {2}{1}{1}{32/32}{Using 6top Transaction}{0}}
-\headcommand {\beamer@framepages {32}{32}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{33}{Avoid Table}}\headcommand {\beamer@subsectionpages {32}{32}}
-\headcommand {\slideentry {2}{2}{1}{33/33}{Avoid Table}{0}}
-\headcommand {\beamer@framepages {33}{33}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{34}{Cell Buffer}}\headcommand {\beamer@subsectionpages {33}{33}}
-\headcommand {\slideentry {2}{3}{1}{34/34}{Cell Buffer}{0}}
-\headcommand {\beamer@framepages {34}{34}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{35}{Housekeeping Approach}}\headcommand {\beamer@subsectionpages {34}{34}}
-\headcommand {\slideentry {2}{4}{1}{35/35}{Housekeeping Approach}{0}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {2}{4}{2}{36/36}{Housekeeping Approach}{0}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\sectionentry {3}{last}{37}{last}{0}}
-\headcommand {\beamer@sectionpages {32}{36}}
-\headcommand {\beamer@subsectionpages {35}{36}}
-\headcommand {\slideentry {3}{0}{1}{37/37}{}{0}}
-\headcommand {\beamer@framepages {37}{37}}
-\headcommand {\beamer@partpages {1}{37}}
-\headcommand {\beamer@subsectionpages {37}{37}}
-\headcommand {\beamer@sectionpages {37}{37}}
-\headcommand {\beamer@documentpages {37}}
-\headcommand {\def \inserttotalframenumber {17}}
+\headcommand {\slideentry {1}{3}{2}{31/36}{Project challenges \& Objectives}{0}}
+\headcommand {\beamer@framepages {31}{36}}
+\headcommand {\slideentry {1}{3}{3}{37/43}{Project challenges \& Objectives}{0}}
+\headcommand {\beamer@framepages {37}{43}}
+\headcommand {\slideentry {1}{3}{4}{44/46}{Project challenges \& Objectives}{0}}
+\headcommand {\beamer@framepages {44}{46}}
+\headcommand {\sectionentry {2}{Proposed Mechanism}{47}{Proposed Mechanism}{0}}
+\headcommand {\beamer@sectionpages {3}{46}}
+\headcommand {\beamer@subsectionpages {30}{46}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{47}{Using 6top Transaction}}\headcommand {\beamer@subsectionpages {47}{46}}
+\headcommand {\slideentry {2}{1}{1}{47/47}{Using 6top Transaction}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{48}{Avoid Table}}\headcommand {\beamer@subsectionpages {47}{47}}
+\headcommand {\slideentry {2}{2}{1}{48/48}{Avoid Table}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{49}{Cell Buffer}}\headcommand {\beamer@subsectionpages {48}{48}}
+\headcommand {\slideentry {2}{3}{1}{49/49}{Cell Buffer}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{50}{Housekeeping Approach}}\headcommand {\beamer@subsectionpages {49}{49}}
+\headcommand {\slideentry {2}{4}{1}{50/50}{Housekeeping Approach}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {2}{4}{2}{51/51}{Housekeeping Approach}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\sectionentry {3}{last}{52}{last}{0}}
+\headcommand {\beamer@sectionpages {47}{51}}
+\headcommand {\beamer@subsectionpages {50}{51}}
+\headcommand {\slideentry {3}{0}{1}{52/52}{}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\beamer@partpages {1}{52}}
+\headcommand {\beamer@subsectionpages {52}{52}}
+\headcommand {\beamer@sectionpages {52}{52}}
+\headcommand {\beamer@documentpages {52}}
+\headcommand {\def \inserttotalframenumber {19}}

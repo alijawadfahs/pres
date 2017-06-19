@@ -1,0 +1,121 @@
+\section{Simulator and Results}
+\subsection{Simulator}
+\begin{withoutheadline}
+\begin{frame}{Simulator Architecture}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\begin{figure}[p]
+
+\includegraphics[width=0.95\linewidth]{figures/SIM.png}
+\caption{Simulator Architecture}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+\subsection{ Results}
+\begin{withoutheadline}
+\begin{frame}{Results}
+
+\begin{figure}[p]
+
+\includegraphics[width=0.8\linewidth]{figures/Graph2.png}
+\caption{Simulation of the Number of Collided Tx Cells as Function of Cycle Number (Time)}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+
+
+
+
+\begin{withoutheadline}
+\begin{frame}{Cell Buffer}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+
+\begin{block}
+
+    \begin{itemize}
+    \item The lost 6top transactions. 
+\item<2-> Special Case That Induce Collisions.
+    
+     
+    
+    \end{itemize}
+    \end{block}
+
+\centering
+\begin{figure}[p]
+
+\item<2-> \includegraphics[width=0.4\linewidth]{figures/pro.png}
+\end{figure}
+
+\end{frame}
+\end{withoutheadline}
+
+
+
+\begin{withoutheadline}
+\begin{frame}{Comparison with Housekeeping }
+
+\begin{figure}[p]
+
+\includegraphics[width=0.8\linewidth]{figures/Graph3.png}
+\caption{Simulation of the Number of Collided Tx Cells as Function of Cycle Number (Time) - comparison with the housekeeping approach}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+
+\begin{withoutheadline}
+\begin{frame}{Comparison with Housekeeping}
+
+\begin{figure}[p]
+
+\includegraphics[width=0.8\linewidth]{figures/Graph4.png}
+\caption{Simulation of the Number of Collided Packets as Function of Cycle Number (Time) - comparison with the housekeeping approach }
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+
+%%%%%%%%%%%%%%%%%%%%%%%SUMMARY%%%%%%%%%%%%%%
+\section{Summary}
+\begin{withoutheadline}
+\begin{frame}{Summary}
+  \begin{itemize}
+  \item
+    Our implementation introduce  \alert{no overhead } in the network.
+  \item
+    The implementation \alert{achieved 60\% reduction} in the number of collided Tx cells and \alert{70\% reduction} of the Collided Packets.
+  \item The Combination of Our approach and Housekeeping accomplish an \alert{ almost collision free dedicated cells}.
+  \end{itemize}
+  
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+     Our goal is to reach a place were we have collision free network, using more complex methods.
+    \item
+      Our prespective in this project was work on 6top, but our next steps is to study the effects of traffic in the protocols performances.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+\end{withoutheadline}

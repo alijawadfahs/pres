@@ -37,24 +37,49 @@
 \headcommand {\beamer@subsectionentry {0}{2}{1}{47}{Using 6top Transaction}}\headcommand {\beamer@subsectionpages {47}{46}}
 \headcommand {\slideentry {2}{1}{1}{47/47}{Using 6top Transaction}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{48}{Avoid Table}}\headcommand {\beamer@subsectionpages {47}{47}}
-\headcommand {\slideentry {2}{2}{1}{48/48}{Avoid Table}{0}}
-\headcommand {\beamer@framepages {48}{48}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{49}{Cell Buffer}}\headcommand {\beamer@subsectionpages {48}{48}}
-\headcommand {\slideentry {2}{3}{1}{49/49}{Cell Buffer}{0}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\beamer@subsectionentry {0}{2}{4}{50}{Housekeeping Approach}}\headcommand {\beamer@subsectionpages {49}{49}}
-\headcommand {\slideentry {2}{4}{1}{50/50}{Housekeeping Approach}{0}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {2}{4}{2}{51/51}{Housekeeping Approach}{0}}
-\headcommand {\beamer@framepages {51}{51}}
-\headcommand {\sectionentry {3}{last}{52}{last}{0}}
-\headcommand {\beamer@sectionpages {47}{51}}
-\headcommand {\beamer@subsectionpages {50}{51}}
-\headcommand {\slideentry {3}{0}{1}{52/52}{}{0}}
-\headcommand {\beamer@framepages {52}{52}}
-\headcommand {\beamer@partpages {1}{52}}
-\headcommand {\beamer@subsectionpages {52}{52}}
-\headcommand {\beamer@sectionpages {52}{52}}
-\headcommand {\beamer@documentpages {52}}
-\headcommand {\def \inserttotalframenumber {19}}
+\headcommand {\slideentry {2}{1}{2}{48/52}{Using 6top Transaction}{0}}
+\headcommand {\beamer@framepages {48}{52}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{53}{Avoid Table}}\headcommand {\beamer@subsectionpages {47}{52}}
+\headcommand {\slideentry {2}{2}{1}{53/53}{Avoid Table}{0}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {2}{2}{2}{54/56}{Avoid Table}{0}}
+\headcommand {\beamer@framepages {54}{56}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{57}{Cell Buffer}}\headcommand {\beamer@subsectionpages {53}{56}}
+\headcommand {\slideentry {2}{3}{1}{57/57}{Cell Buffer}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {2}{3}{2}{58/63}{Cell Buffer}{0}}
+\headcommand {\beamer@framepages {58}{63}}
+\headcommand {\sectionentry {3}{Simulator and Results}{64}{Simulator and Results}{0}}
+\headcommand {\beamer@sectionpages {47}{63}}
+\headcommand {\beamer@subsectionpages {57}{63}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{64}{Simulator}}\headcommand {\beamer@subsectionpages {64}{63}}
+\headcommand {\slideentry {3}{1}{1}{64/64}{Simulator}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {3}{1}{2}{65/65}{Simulator}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{66}{ Results}}\headcommand {\beamer@subsectionpages {64}{65}}
+\headcommand {\slideentry {3}{2}{1}{66/66}{ Results}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {3}{2}{2}{67/67}{ Results}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {3}{2}{3}{68/69}{ Results}{0}}
+\headcommand {\beamer@framepages {68}{69}}
+\headcommand {\slideentry {3}{2}{4}{70/70}{ Results}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {3}{2}{5}{71/71}{ Results}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\sectionentry {4}{Summary}{72}{Summary}{0}}
+\headcommand {\beamer@sectionpages {64}{71}}
+\headcommand {\beamer@subsectionpages {66}{71}}
+\headcommand {\slideentry {4}{0}{1}{72/72}{}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\sectionentry {5}{last}{73}{last}{0}}
+\headcommand {\beamer@sectionpages {72}{72}}
+\headcommand {\beamer@subsectionpages {72}{72}}
+\headcommand {\slideentry {5}{0}{1}{73/73}{}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\beamer@partpages {1}{73}}
+\headcommand {\beamer@subsectionpages {73}{73}}
+\headcommand {\beamer@sectionpages {73}{73}}
+\headcommand {\beamer@documentpages {73}}
+\headcommand {\def \inserttotalframenumber {28}}

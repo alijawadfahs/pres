@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.16)  19 JUN 2017 08:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.16)  20 JUN 2017 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -915,27 +915,27 @@ line 74.
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<figures/logo_im2ag_h122.jpg, id=69, 142.5325pt x 122.4575pt>
+<figures/logo_im2ag_h122.jpg, id=73, 142.5325pt x 122.4575pt>
 File: figures/logo_im2ag_h122.jpg Graphic file (type jpg)
 
 <use figures/logo_im2ag_h122.jpg>
 Package pdftex.def Info: figures/logo_im2ag_h122.jpg used on input line 74.
 (pdftex.def)             Requested size: 57.07709pt x 49.03818pt.
 
-<figures/logoINP.png, id=70, 190.7125pt x 120.45pt>
+<figures/logoINP.png, id=74, 190.7125pt x 120.45pt>
 File: figures/logoINP.png Graphic file (type png)
  <use figures/logoINP.png>
 Package pdftex.def Info: figures/logoINP.png used on input line 74.
 (pdftex.def)             Requested size: 71.34744pt x 45.0602pt.
 
-<figures/LIG_test.png, id=71, 1245.15187pt x 1066.7353pt>
+<figures/LIG_test.png, id=75, 1245.15187pt x 1066.7353pt>
 File: figures/LIG_test.png Graphic file (type png)
 
 <use figures/LIG_test.png>
 Package pdftex.def Info: figures/LIG_test.png used on input line 74.
 (pdftex.def)             Requested size: 59.93378pt x 51.3378pt.
 
-<figures/verimag.jpg, id=73, 250.9375pt x 187.70125pt>
+<figures/verimag.jpg, id=77, 250.9375pt x 187.70125pt>
 File: figures/verimag.jpg Graphic file (type jpg)
 
 <use figures/verimag.jpg>
@@ -958,7 +958,7 @@ g> <./figures/verimag.jpg>] (./presentation.toc) [2
 
 
 ]
-<figures/wsn.png, id=194, 374.39874pt x 235.88126pt>
+<figures/wsn.png, id=201, 374.39874pt x 235.88126pt>
 File: figures/wsn.png Graphic file (type png)
  <use figures/wsn.png>
 Package pdftex.def Info: figures/wsn.png used on input line 28.
@@ -989,7 +989,7 @@ Package pdftex.def Info: figures/wsn.png used on input line 28.
  [7
 
 ]
-<figures/map1.png, id=303, 826.08624pt x 735.74875pt>
+<figures/map1.png, id=310, 826.08624pt x 735.74875pt>
 File: figures/map1.png Graphic file (type png)
  <use figures/map1.png>
 Package pdftex.def Info: figures/map1.png used on input line 67.
@@ -997,7 +997,7 @@ Package pdftex.def Info: figures/map1.png used on input line 67.
 
 [8
 
- <./figures/map1.png>] <figures/map2.png, id=331, 849.1725pt x 607.26875pt>
+ <./figures/map1.png>] <figures/map2.png, id=338, 849.1725pt x 607.26875pt>
 File: figures/map2.png Graphic file (type png)
 
 <use figures/map2.png>
@@ -1006,7 +1006,7 @@ Package pdftex.def Info: figures/map2.png used on input line 67.
  [9
 
  <./figures/map2.png>]
-<figures/map3.png, id=358, 849.1725pt x 607.26875pt>
+<figures/map3.png, id=365, 849.1725pt x 607.26875pt>
 File: figures/map3.png Graphic file (type png)
  <use figures/map3.png>
 Package pdftex.def Info: figures/map3.png used on input line 67.
@@ -1014,7 +1014,7 @@ Package pdftex.def Info: figures/map3.png used on input line 67.
 
 [10
 
- <./figures/map3.png>] <figures/map4.png, id=385, 849.1725pt x 607.26875pt>
+ <./figures/map3.png>] <figures/map4.png, id=392, 849.1725pt x 607.26875pt>
 File: figures/map4.png Graphic file (type png)
 
 <use figures/map4.png>
@@ -1027,7 +1027,7 @@ Package pdftex.def Info: figures/map4.png used on input line 67.
 ]
 [13
 
-] <figures/TSCH1.png, id=478, 2920.9125pt x 940.51375pt>
+] <figures/TSCH1.png, id=486, 2920.9125pt x 940.51375pt>
 File: figures/TSCH1.png Graphic file (type png)
 
 <use figures/TSCH1.png>
@@ -1036,7 +1036,7 @@ Package pdftex.def Info: figures/TSCH1.png used on input line 100.
  [14
 
  <./figures/TSCH1.png>]
-<figures/TSCH2.png, id=506, 2920.9125pt x 952.55875pt>
+<figures/TSCH2.png, id=514, 2920.9125pt x 952.55875pt>
 File: figures/TSCH2.png Graphic file (type png)
  <use figures/TSCH2.png>
 Package pdftex.def Info: figures/TSCH2.png used on input line 100.
@@ -1045,7 +1045,7 @@ Package pdftex.def Info: figures/TSCH2.png used on input line 100.
 [15
 
  <./figures/TSCH2.png>]
-<figures/TSCH3.png, id=533, 2920.9125pt x 940.51375pt>
+<figures/TSCH3.png, id=541, 2920.9125pt x 940.51375pt>
 File: figures/TSCH3.png Graphic file (type png)
  <use figures/TSCH3.png>
 Package pdftex.def Info: figures/TSCH3.png used on input line 100.
@@ -1054,7 +1054,7 @@ Package pdftex.def Info: figures/TSCH3.png used on input line 100.
 [16
 
  <./figures/TSCH3.png>]
-<figures/TSCH4.png, id=560, 2920.9125pt x 940.51375pt>
+<figures/TSCH4.png, id=568, 2920.9125pt x 940.51375pt>
 File: figures/TSCH4.png Graphic file (type png)
  <use figures/TSCH4.png>
 Package pdftex.def Info: figures/TSCH4.png used on input line 100.
@@ -1063,7 +1063,7 @@ Package pdftex.def Info: figures/TSCH4.png used on input line 100.
 [17
 
  <./figures/TSCH4.png>]
-<figures/TSCH5.png, id=586, 2920.9125pt x 940.51375pt>
+<figures/TSCH5.png, id=594, 2920.9125pt x 940.51375pt>
 File: figures/TSCH5.png Graphic file (type png)
  <use figures/TSCH5.png>
 Package pdftex.def Info: figures/TSCH5.png used on input line 100.
@@ -1076,7 +1076,7 @@ Package pdftex.def Info: figures/TSCH5.png used on input line 100.
 ] [20
 
 ]
-<figures/Cent.png, id=669, 849.1725pt x 685.56125pt>
+<figures/Cent.png, id=677, 849.1725pt x 685.56125pt>
 File: figures/Cent.png Graphic file (type png)
  <use figures/Cent.png>
 Package pdftex.def Info: figures/Cent.png used on input line 142.
@@ -1084,7 +1084,7 @@ Package pdftex.def Info: figures/Cent.png used on input line 142.
 
 [21
 
- <./figures/Cent.png>] <figures/Dist.png, id=696, 851.18pt x 607.26875pt>
+ <./figures/Cent.png>] <figures/Dist.png, id=704, 851.18pt x 607.26875pt>
 File: figures/Dist.png Graphic file (type png)
 
 <use figures/Dist.png>
@@ -1108,7 +1108,7 @@ Package pdftex.def Info: figures/Dist.png used on input line 142.
  [24
 
 ]
-<figures/6top1.png, id=774, 2920.9125pt x 940.51375pt>
+<figures/6top1.png, id=782, 2920.9125pt x 940.51375pt>
 File: figures/6top1.png Graphic file (type png)
  <use figures/6top1.png>
 Package pdftex.def Info: figures/6top1.png used on input line 174.
@@ -1117,7 +1117,7 @@ Package pdftex.def Info: figures/6top1.png used on input line 174.
 [25
 
  <./figures/6top1.png>]
-<figures/6top2.png, id=802, 2920.9125pt x 940.51375pt>
+<figures/6top2.png, id=810, 2920.9125pt x 940.51375pt>
 File: figures/6top2.png Graphic file (type png)
  <use figures/6top2.png>
 Package pdftex.def Info: figures/6top2.png used on input line 174.
@@ -1126,7 +1126,7 @@ Package pdftex.def Info: figures/6top2.png used on input line 174.
 [26
 
  <./figures/6top2.png>]
-<figures/6top3.png, id=830, 2920.9125pt x 940.51375pt>
+<figures/6top3.png, id=838, 2920.9125pt x 940.51375pt>
 File: figures/6top3.png Graphic file (type png)
  <use figures/6top3.png>
 Package pdftex.def Info: figures/6top3.png used on input line 174.
@@ -1135,7 +1135,7 @@ Package pdftex.def Info: figures/6top3.png used on input line 174.
 [27
 
  <./figures/6top3.png>]
-<figures/6top4.png, id=857, 2920.9125pt x 940.51375pt>
+<figures/6top4.png, id=865, 2920.9125pt x 940.51375pt>
 File: figures/6top4.png Graphic file (type png)
  <use figures/6top4.png>
 Package pdftex.def Info: figures/6top4.png used on input line 174.
@@ -1144,7 +1144,7 @@ Package pdftex.def Info: figures/6top4.png used on input line 174.
 [28
 
  <./figures/6top4.png>]
-<figures/6top5.png, id=883, 2920.9125pt x 940.51375pt>
+<figures/6top5.png, id=891, 2920.9125pt x 940.51375pt>
 File: figures/6top5.png Graphic file (type png)
  <use figures/6top5.png>
 Package pdftex.def Info: figures/6top5.png used on input line 174.
@@ -1159,7 +1159,7 @@ Package pdftex.def Info: figures/6top5.png used on input line 174.
 ] [32
 
 ]
-<figures/col1.png, id=1002, 2920.9125pt x 940.51375pt>
+<figures/col1.png, id=1011, 2920.9125pt x 940.51375pt>
 File: figures/col1.png Graphic file (type png)
  <use figures/col1.png>
 Package pdftex.def Info: figures/col1.png used on input line 208.
@@ -1168,7 +1168,7 @@ Package pdftex.def Info: figures/col1.png used on input line 208.
 [33
 
  <./figures/col1.png>]
-<figures/col2.png, id=1030, 2920.9125pt x 940.51375pt>
+<figures/col2.png, id=1039, 2920.9125pt x 940.51375pt>
 File: figures/col2.png Graphic file (type png)
  <use figures/col2.png>
 Package pdftex.def Info: figures/col2.png used on input line 208.
@@ -1177,7 +1177,7 @@ Package pdftex.def Info: figures/col2.png used on input line 208.
 [34
 
  <./figures/col2.png>]
-<figures/col3.png, id=1057, 2920.9125pt x 940.51375pt>
+<figures/col3.png, id=1066, 2920.9125pt x 940.51375pt>
 File: figures/col3.png Graphic file (type png)
  <use figures/col3.png>
 Package pdftex.def Info: figures/col3.png used on input line 208.
@@ -1195,7 +1195,7 @@ Package pdftex.def Info: figures/col3.png used on input line 208.
 ] [37
 
 ]
-<figures/hk1.png, id=1138, 921.4425pt x 608.2725pt>
+<figures/hk1.png, id=1147, 921.4425pt x 608.2725pt>
 File: figures/hk1.png Graphic file (type png)
  <use figures/hk1.png>
 Package pdftex.def Info: figures/hk1.png used on input line 243.
@@ -1203,7 +1203,7 @@ Package pdftex.def Info: figures/hk1.png used on input line 243.
 
 [38
 
- <./figures/hk1.png>] <figures/hk2.png, id=1165, 921.4425pt x 608.2725pt>
+ <./figures/hk1.png>] <figures/hk2.png, id=1174, 921.4425pt x 608.2725pt>
 File: figures/hk2.png Graphic file (type png)
 
 <use figures/hk2.png>
@@ -1212,7 +1212,7 @@ Package pdftex.def Info: figures/hk2.png used on input line 243.
  [39
 
  <./figures/hk2.png>]
-<figures/hk3.png, id=1192, 921.4425pt x 608.2725pt>
+<figures/hk3.png, id=1201, 921.4425pt x 608.2725pt>
 File: figures/hk3.png Graphic file (type png)
  <use figures/hk3.png>
 Package pdftex.def Info: figures/hk3.png used on input line 243.
@@ -1220,7 +1220,7 @@ Package pdftex.def Info: figures/hk3.png used on input line 243.
 
 [40
 
- <./figures/hk3.png>] <figures/rx1.png, id=1219, 849.1725pt x 610.28pt>
+ <./figures/hk3.png>] <figures/rx1.png, id=1228, 849.1725pt x 610.28pt>
 File: figures/rx1.png Graphic file (type png)
 
 <use figures/rx1.png>
@@ -1229,7 +1229,7 @@ Package pdftex.def Info: figures/rx1.png used on input line 243.
  [41
 
  <./figures/rx1.png>]
-<figures/rx2.png, id=1247, 849.1725pt x 610.28pt>
+<figures/rx2.png, id=1256, 849.1725pt x 610.28pt>
 File: figures/rx2.png Graphic file (type png)
  <use figures/rx2.png>
 Package pdftex.def Info: figures/rx2.png used on input line 243.
@@ -1263,7 +1263,7 @@ Package pdftex.def Info: figures/rx2.png used on input line 243.
 ] [49
 
 ]
-<figures/usin1.png, id=1469, 1004.75375pt x 683.55376pt>
+<figures/usin1.png, id=1479, 1004.75375pt x 683.55376pt>
 File: figures/usin1.png Graphic file (type png)
 
 <use figures/usin1.png>
@@ -1272,7 +1272,7 @@ Package pdftex.def Info: figures/usin1.png used on input line 37.
  [50
 
  <./figures/usin1.png>]
-<figures/usin2.png, id=1496, 1005.7575pt x 683.55376pt>
+<figures/usin2.png, id=1506, 1005.7575pt x 683.55376pt>
 File: figures/usin2.png Graphic file (type png)
 
 <use figures/usin2.png>
@@ -1281,7 +1281,7 @@ Package pdftex.def Info: figures/usin2.png used on input line 37.
  [51
 
  <./figures/usin2.png>]
-<figures/usin3.png, id=1522, 1005.7575pt x 704.6325pt>
+<figures/usin3.png, id=1532, 1005.7575pt x 704.6325pt>
 File: figures/usin3.png Graphic file (type png)
  <use figures/usin3.png>
 Package pdftex.def Info: figures/usin3.png used on input line 37.
@@ -1292,7 +1292,7 @@ Package pdftex.def Info: figures/usin3.png used on input line 37.
  <./figures/usin3.png>] (./presentation.toc) [53
 
 ]
-<figures/avoid.png, id=1587, 2061.7025pt x 940.51375pt>
+<figures/avoid.png, id=1598, 2061.7025pt x 940.51375pt>
 File: figures/avoid.png Graphic file (type png)
 
 <use figures/avoid.png>
@@ -1301,7 +1301,7 @@ Package pdftex.def Info: figures/avoid.png used on input line 70.
  [54
 
  <./figures/avoid.png>]
-<figures/avoid2.png, id=1614, 1015.795pt x 738.76pt>
+<figures/avoid2.png, id=1625, 1015.795pt x 738.76pt>
 File: figures/avoid2.png Graphic file (type png)
  <use figures/avoid2.png>
 Package pdftex.def Info: figures/avoid2.png used on input line 70.
@@ -1319,130 +1319,135 @@ Package pdftex.def Info: figures/avoid2.png used on input line 70.
 ] (./presentation.toc)
 [57
 
-] <figures/9nq6n.png, id=1704, 131.49126pt x 56.21pt>
-File: figures/9nq6n.png Graphic file (type png)
+] [58
 
-<use figures/9nq6n.png>
-Package pdftex.def Info: figures/9nq6n.png used on input line 96.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
- [58
+] [59
 
- <./figures/9nq6n.png>]
-File: figures/9nq6n.png Graphic file (type png)
- <use figures/9nq6n.png>
-Package pdftex.def Info: figures/9nq6n.png used on input line 96.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+] <figures/buff.png, id=1768, 1005.7575pt x 695.59875pt>
+File: figures/buff.png Graphic file (type png)
 
-[59
-
-]
-File: figures/9nq6n.png Graphic file (type png)
- <use figures/9nq6n.png>
-Package pdftex.def Info: figures/9nq6n.png used on input line 96.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
+<use figures/buff.png>
+Package pdftex.def Info: figures/buff.png used on input line 102.
+(pdftex.def)             Requested size: 122.91406pt x 85.00726pt.
  [60
 
-]
-File: figures/9nq6n.png Graphic file (type png)
- <use figures/9nq6n.png>
-Package pdftex.def Info: figures/9nq6n.png used on input line 96.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
- [61
+ <./figures/buff.png>]
+File: figures/buff.png Graphic file (type png)
+ <use figures/buff.png>
+Package pdftex.def Info: figures/buff.png used on input line 102.
+(pdftex.def)             Requested size: 122.91406pt x 85.00726pt.
 
-]
-File: figures/9nq6n.png Graphic file (type png)
-
-<use figures/9nq6n.png>
-Package pdftex.def Info: figures/9nq6n.png used on input line 96.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
- [62
-
-]
-File: figures/9nq6n.png Graphic file (type png)
- <use figures/9nq6n.png>
-Package pdftex.def Info: figures/9nq6n.png used on input line 96.
-(pdftex.def)             Requested size: 92.1879pt x 39.41019pt.
- [63
+[61
 
 ])
 \openout2 = `./res.aux'.
 
- (./res.tex
-(./presentation.toc) [64
+ (./res.tex (./presentation.toc) [62
 
 
-
-] <figures/SIM.png, id=1904, 1290.8225pt x 664.4825pt>
-File: figures/SIM.png Graphic file (type png)
-
-<use figures/SIM.png>
-Package pdftex.def Info: figures/SIM.png used on input line 19.
-(pdftex.def)             Requested size: 291.92444pt x 150.27267pt.
- [65
-
- <./figures/SIM.png>] (./presentation.toc) [66
 
 ]
-<figures/Graph2.png, id=1967, 789.83606pt x 592.37704pt>
+<figures/SIM.png, id=1861, 1290.8225pt x 664.4825pt>
+File: figures/SIM.png Graphic file (type png)
+ <use figures/SIM.png>
+Package pdftex.def Info: figures/SIM.png used on input line 19.
+(pdftex.def)             Requested size: 291.92444pt x 150.27267pt.
+
+[63
+
+ <./figures/SIM.png>] [64
+
+] (./presentation.toc) [65
+
+]
+<figures/Graph2.png, id=1953, 789.83606pt x 592.37704pt>
 File: figures/Graph2.png Graphic file (type png)
 
 <use figures/Graph2.png>
-Package pdftex.def Info: figures/Graph2.png used on input line 33.
+Package pdftex.def Info: figures/Graph2.png used on input line 69.
 (pdftex.def)             Requested size: 245.83282pt x 184.36714pt.
 
-Overfull \vbox (1.26065pt too high) detected at line 33
+Overfull \vbox (1.26065pt too high) detected at line 69
  []
 
-[67
+[66
 
  <./figures/Graph2.png>]
-<figures/pro.png, id=1997, 1106.1325pt x 917.4275pt>
+<figures/pro.png, id=1981, 1106.1325pt x 917.4275pt>
 File: figures/pro.png Graphic file (type png)
  <use figures/pro.png>
-Package pdftex.def Info: figures/pro.png used on input line 65.
+Package pdftex.def Info: figures/pro.png used on input line 101.
 (pdftex.def)             Requested size: 122.91406pt x 101.93924pt.
 
-[68
+[67
 
  <./figures/pro.png>]
 File: figures/pro.png Graphic file (type png)
  <use figures/pro.png>
-Package pdftex.def Info: figures/pro.png used on input line 65.
+Package pdftex.def Info: figures/pro.png used on input line 101.
 (pdftex.def)             Requested size: 122.91406pt x 101.93924pt.
- [69
+ [68
 
 ]
-<figures/Graph3.png, id=2050, 789.83606pt x 592.37704pt>
+<figures/Graph3.png, id=2035, 789.83606pt x 592.37704pt>
 File: figures/Graph3.png Graphic file (type png)
 
 <use figures/Graph3.png>
-Package pdftex.def Info: figures/Graph3.png used on input line 81.
+Package pdftex.def Info: figures/Graph3.png used on input line 117.
 (pdftex.def)             Requested size: 245.83282pt x 184.36714pt.
 
-Overfull \vbox (1.26065pt too high) detected at line 81
+Overfull \vbox (1.26065pt too high) detected at line 117
  []
 
-[70
+[69
 
- <./figures/Graph3.png>]
-<figures/Graph4.png, id=2077, 789.83606pt x 592.37704pt>
-File: figures/Graph4.png Graphic file (type png)
+ <./figures/Graph3.png>] [70
 
-<use figures/Graph4.png>
-Package pdftex.def Info: figures/Graph4.png used on input line 95.
-(pdftex.def)             Requested size: 245.83282pt x 184.36714pt.
+])
+<ali.pdf, id=2088, page=10, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 10>
+Package pdftex.def Info: ali.pdf, page10 used on input line 119.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
 
-Overfull \vbox (1.26065pt too high) detected at line 95
+<ali.pdf, id=2089, page=18, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 18>
+Package pdftex.def Info: ali.pdf, page18 used on input line 119.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2090, page=36, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 36>
+Package pdftex.def Info: ali.pdf, page36 used on input line 119.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2091, page=52, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 52>
+Package pdftex.def Info: ali.pdf, page52 used on input line 119.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2092, page=63, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 63>
+Package pdftex.def Info: ali.pdf, page63 used on input line 119.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+<ali.pdf, id=2093, page=69, 364.19562pt x 273.14648pt>
+File: ali.pdf Graphic file (type pdf)
+ <use ali.pdf, page 69>
+Package pdftex.def Info: ali.pdf, page69 used on input line 119.
+(pdftex.def)             Requested size: 92.1879pt x 69.14085pt.
+
+Overfull \hbox (5.27382pt too wide) in paragraph at lines 119--119
+[][]  
  []
 
 [71
 
- <./figures/Graph4.png>] [72
 
-]) [73
-
-
-]
+ <./ali.pdf> <./ali.pdf> <./ali.pdf> <./ali.pdf> <./ali.pdf> <./ali.pdf>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1452,32 +1457,26 @@ Overfull \vbox (1.26065pt too high) detected at line 95
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (./presentation.aux (./intro.aux)
-(./pro.aux) (./res.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
 
+(./presentation.aux (./intro.aux) (./pro.aux) (./res.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: 878A512EFBAF60D89B16BC67B6C26F31;753.
 
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: F2B5DEC9D79D180BB902CDA0F23FF818;710
-(rerunfilecheck)             After:  5F3FCFB1C23D3686DCE74AA9A3B4A670;753.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 104.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
  ) 
 Here is how much of TeX's memory you used:
- 17323 strings out of 494910
- 331843 string characters out of 6179836
- 391704 words of memory out of 5000000
- 19978 multiletter control sequences out of 15000+600000
+ 17335 strings out of 494910
+ 332037 string characters out of 6179836
+ 391723 words of memory out of 5000000
+ 19994 multiletter control sequences out of 15000+600000
  12348 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  56i,16n,55p,413b,923s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1486,13 +1485,13 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/font
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam7.pfb>
-Output written on presentation.pdf (73 pages, 2806656 bytes).
+Output written on presentation.pdf (71 pages, 3065561 bytes).
 PDF statistics:
- 2224 PDF objects out of 2487 (max. 8388607)
- 2057 compressed objects within 21 object streams
- 160 named destinations out of 1000 (max. 500000)
- 355 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2215 PDF objects out of 2487 (max. 8388607)
+ 2039 compressed objects within 21 object streams
+ 156 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 

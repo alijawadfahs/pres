@@ -75,23 +75,29 @@
 %% edit 
 \begin{withoutheadline}
 \begin{frame}{Cell Buffer}
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
 
+\begin{block}{Why?}
 \begin{itemize}
-    \item We have created a probablistic model to calaculate the optimal length of the buffer.
-    \item<2-> $p$ is the probability of successful transmission.
-    \item<3-> we are confidence with a probability $P_{o}$ that one of the transmission is successful.
-    \item<4-> $k$ is the number of retransmission (the optimal length of the buffer). 
-    \item<5-> we end up with the following equation using binomial distribution:
-    
-    \end{itemize}
-    
- \centering
-\begin{figure}[p]
 
-\item<5-> \includegraphics[width=0.3\linewidth]{figures/9nq6n.png}
-\end{figure}
+\item Some of the 6top Transaction are lost. 
+\item<2-> Number of the neighbors will not receive the reserved cells. 
+
+\end{itemize}
+\end{block}
+
+\only<3->{\begin{block}{How?}
 \begin{itemize}
-\item<6-> According to this equation, and by taking the worst case scenario a buffer of length 10 can assure us 95\% of success
- \end{itemize}
+
+
+\item<3-> Creating a cell buffer of length k for each node. 
+\item<4-> Transmitting the cell buffer each time a cell is reserved.
+\end{itemize}
+\end{block}}
+\only<3->{\centering
+\includegraphics[width=.4\linewidth]{figures/buff.png}}
+
 \end{frame}
 \end{withoutheadline}

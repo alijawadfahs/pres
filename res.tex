@@ -18,6 +18,42 @@
 
 \end{frame}
 \end{withoutheadline}
+
+\begin{withoutheadline}
+\begin{frame}{Simulation Parameters}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+\begin{center}
+\begin{tabular}{l*{1}{c}r}
+Parameter              & Value  \\
+\hline
+Number of Motes & $100$ \\
+Number of cycles per run     & $1000$ \\
+Number of runs per simulation     & $1000$ \\
+Timeslot duration    & $10ms$ \\
+Slotframe length     & $101$\\
+Number of channels   & $16$ \\
+Area            & $1Km\times1Km$ \\
+Topology constraint     & $\geq$ 3 neighbors with PDR $50\,\%$ \\
+Radio sensitivity           & $-97$ dBm \\
+Radio range     & 100m \\
+Traffic & 1 packet/node each 10 cycles 
+\end{tabular}
+%\captionof{table}{Simulator Parameters} \label{tab:para} 
+\end{center}
+
+
+
+
+
+\end{frame}
+\end{withoutheadline}
+
+
 \subsection{ Results}
 \begin{withoutheadline}
 \begin{frame}{Results}
@@ -37,7 +73,7 @@
 
 
 \begin{withoutheadline}
-\begin{frame}{Cell Buffer}
+\begin{frame}{ Results}
 
 
 \setbeamercolor{block title}{bg=blue!30,fg=black}
@@ -45,7 +81,7 @@
 \setbeamertemplate{blocks}[rounded][shadow=false]
 
 
-\begin{block}
+\begin{block}{Collision reasons}
 
     \begin{itemize}
     \item The lost 6top transactions. 
@@ -81,19 +117,7 @@
 \end{frame}
 \end{withoutheadline}
 
-\begin{withoutheadline}
-\begin{frame}{Comparison with Housekeeping}
 
-\begin{figure}[p]
-
-\includegraphics[width=0.8\linewidth]{figures/Graph4.png}
-\caption{Simulation of the Number of Collided Packets as Function of Cycle Number (Time) - comparison with the housekeeping approach }
-\end{figure}
-
-
-
-\end{frame}
-\end{withoutheadline}
 
 %%%%%%%%%%%%%%%%%%%%%%%SUMMARY%%%%%%%%%%%%%%
 \section{Summary}

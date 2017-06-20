@@ -56,12 +56,12 @@ Traffic & 1 packet/node each 10 cycles
 
 \subsection{ Results}
 \begin{withoutheadline}
-\begin{frame}{Results}
+\begin{frame}{Comparison with random scheduling}
 
 \begin{figure}[p]
 
-\includegraphics[width=\linewidth]{figures/Graph2.png}
-%\caption{Simulation of the Number of Collided Tx Cells as Function of Cycle Number (Time)}
+\includegraphics[width=\linewidth]{figures/graph1.png}
+
 \end{figure}
 
 
@@ -69,7 +69,35 @@ Traffic & 1 packet/node each 10 cycles
 \end{frame}
 \end{withoutheadline}
 
+\begin{withoutheadline}
 
+\begin{frame}{Comparison with random scheduling}
+
+\begin{figure}[p]
+
+
+\includegraphics[width=\linewidth]{figures/graph1-1.png}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
+
+\begin{withoutheadline}
+
+\begin{frame}{Comparison with random scheduling}
+
+\begin{figure}[p]
+
+
+\includegraphics[width=\linewidth]{figures/graph1-2.png}
+\end{figure}
+
+
+
+\end{frame}
+\end{withoutheadline}
 
 
 \begin{withoutheadline}
@@ -85,7 +113,7 @@ Traffic & 1 packet/node each 10 cycles
 
     \begin{itemize}
     \item The lost 6top transactions. 
-\item<2-> Special Case That Induce Collisions.
+\item Special Case That Induce Collisions.
     
      
     
@@ -95,7 +123,7 @@ Traffic & 1 packet/node each 10 cycles
 \centering
 \begin{figure}[p]
 
-\item<2-> \includegraphics[width=0.4\linewidth]{figures/pro.png}
+\item\includegraphics[width=0.4\linewidth]{figures/pro.png}
 \end{figure}
 
 \end{frame}
@@ -114,20 +142,20 @@ Traffic & 1 packet/node each 10 cycles
 \begin{block}{Collision in Dedicated Cells}
     \begin{itemize}
     \item Housekeeping approach and cell relocation.
-    \item<2-> Tx housekeeping. 
-    \item<5-> Rx housekeeping. 
-    \item<7-> Dealing with collisions after they occur. Good idea ?
+    \item Tx housekeeping. 
+    \item<4-> Rx housekeeping. 
+    \item<6-> Dealing with collisions after they occur. Good idea ?
     
     \end{itemize}
     \end{block}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.48\linewidth}
 \begin{figure}[p]
- \only<2>{\includegraphics[width=\linewidth]{figures/hk1.png}}
- \only<3>{\includegraphics[width=\linewidth]{figures/hk2.png}}
-  \only<4>{\includegraphics[width=\linewidth]{figures/hk3.png}}
-  \only<5>{\includegraphics[width=\linewidth]{figures/rx1.png}}
-  \only<6->{\includegraphics[width=\linewidth]{figures/rx2.png}}
+ \only<1>{\includegraphics[width=\linewidth]{figures/hk1.png}}
+ \only<2>{\includegraphics[width=\linewidth]{figures/hk2.png}}
+  \only<3>{\includegraphics[width=\linewidth]{figures/hk3.png}}
+  \only<4>{\includegraphics[width=\linewidth]{figures/rx1.png}}
+  \only<5->{\includegraphics[width=\linewidth]{figures/rx2.png}}
   
 \end{figure}
 \end{minipage}
@@ -141,7 +169,7 @@ Traffic & 1 packet/node each 10 cycles
 
 \begin{figure}[p]
 
-\includegraphics[width=\linewidth]{figures/Graph3.png}
+\includegraphics[width=\linewidth]{figures/graph2.png}
 %\caption{Simulation of the Number of Collided Tx Cells as Function of Cycle Number (Time) - comparison with the housekeeping approach}
 \end{figure}
 
@@ -160,7 +188,7 @@ Traffic & 1 packet/node each 10 cycles
   \item
     Our implementation introduce  \alert{no overhead } in the network.
   \item
-    The implementation \alert{achieved 60\% reduction} in the number of collided Tx cells and \alert{70\% reduction} of the Collided Packets.
+    The implementation \alert{achieved 60\% reduction} in the number of collided Tx cells.
   \item The Combination of Our approach and Housekeeping accomplish an \alert{ almost collision free dedicated cells}.
   \end{itemize}
   
@@ -171,7 +199,7 @@ Traffic & 1 packet/node each 10 cycles
     \item
      Our goal is to reach a place were we have collision free network, using more complex methods.
     \item
-      Our prespective in this project was work on 6top, but our next steps is to study the effects of traffic in the protocols performances.
+      Our perspective in this project was work on 6top, but our next steps is to study the effects of traffic in the protocols performances.
     \end{itemize}
   \end{itemize}
 \end{frame}

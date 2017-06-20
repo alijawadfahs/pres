@@ -3,11 +3,11 @@
 \beamer@subsectionintoc {1}{1}{General Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{IEEE802.15.4 Protocols}{12}{0}{1}
 \beamer@subsectionintoc {1}{3}{Project challenges \& Objectives}{24}{0}{1}
-\beamer@sectionintoc {2}{Proposed Mechanism}{33}{0}{2}
-\beamer@subsectionintoc {2}{1}{Using 6top Transaction}{33}{0}{2}
-\beamer@subsectionintoc {2}{2}{Avoid Table}{39}{0}{2}
-\beamer@subsectionintoc {2}{3}{Cell Buffer}{43}{0}{2}
-\beamer@sectionintoc {3}{Simulator and Results}{48}{0}{3}
-\beamer@subsectionintoc {3}{1}{Simulator}{48}{0}{3}
-\beamer@subsectionintoc {3}{2}{ Results}{51}{0}{3}
-\beamer@sectionintoc {4}{Summary and Contributions}{63}{0}{4}
+\beamer@sectionintoc {2}{Proposed Mechanism}{31}{0}{2}
+\beamer@subsectionintoc {2}{1}{Using 6top Transaction}{31}{0}{2}
+\beamer@subsectionintoc {2}{2}{Avoid Table}{35}{0}{2}
+\beamer@subsectionintoc {2}{3}{Cell Buffer}{39}{0}{2}
+\beamer@sectionintoc {3}{Simulator and Results}{42}{0}{3}
+\beamer@subsectionintoc {3}{1}{Simulator}{42}{0}{3}
+\beamer@subsectionintoc {3}{2}{ Results}{45}{0}{3}
+\beamer@sectionintoc {4}{Summary and Contributions}{57}{0}{4}

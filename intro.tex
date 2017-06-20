@@ -14,7 +14,7 @@
     \begin{itemize}
     \item Network technologies and IoT. 
     \item<2-> WSN: standardization of IoT nodes communication.
-    \item<3-> Main contributions are : low power consumption, low cost.
+    \item<3-> Low power consumption, low cost.
     \item<4->  IEEE802.15.4 one of the main standards of WSN. 
     \end{itemize}
     \end{block}
@@ -82,8 +82,8 @@
     \item  IEEE802.15.4 defines the MAC and PHY layers. 
     \item<2->  TSCH is an extension of the MAC layer of IEEE802.15.4.
     \item<3->  Time/Frequency multiplexing of the bandwidth.
-    \item<4-> Shared cells.
-    \item<5-> Dedicated cells.
+    \item<4-> Shared cells/Dedicated cells..
+    \item<5-> 6TiSCH operation sublayer 6top will manage the TSCH.
     \end{itemize}
     \end{block}
 
@@ -101,46 +101,7 @@
 \end{withoutheadline}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   4   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{withoutheadline}
 
-\begin{frame}{IEEE802.15.4 Protocols}
-
-
-\setbeamercolor{block title}{bg=blue!30,fg=black}
-\setbeamercolor{block body}{bg=blue!10,fg=black}
-\setbeamertemplate{blocks}[rounded][shadow=false]
-\begin{minipage}[t]{0.48\linewidth}
-
-\begin{block}{6TiSCH}
-    \begin{itemize}
-    \item  IEEE802.15.4 left the management of TSCH for other Protocols. 
-    \item<2->  6TiSCH offered the integration of TSCH over IPv6.
-    \item<3->  6TiSCH operation sublayer (6top) offered the management of TSCH:
-             \begin{itemize}
-             \item Centralized algorithm.
-             \item<4-> Distributed algorithm. 
-             \end{itemize}
-    \item<5-> 6top contains:
-     \begin{itemize}
-             \item 6top transactions.
-             \item<6-> Scheduling function. 
-             \end{itemize}
-    
-    \end{itemize}
-    \end{block}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.48\linewidth}
-\vskip 5em
-\begin{figure}[p]
-
- \only<3>{\includegraphics[width=\linewidth]{figures/Cent.png}}
-  \only<4->{\includegraphics[width=\linewidth]{figures/Dist.png}}
-  
-\end{figure}
-
-\end{minipage}
-\end{frame}
-\end{withoutheadline}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  5   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{withoutheadline}
 \begin{frame}{IEEE802.15.4 Protocols}
@@ -150,13 +111,15 @@
 \setbeamercolor{block body}{bg=blue!10,fg=black}
 \setbeamertemplate{blocks}[rounded][shadow=false]
 \begin{block}{Cell Reservation Process}
-    \begin{itemize}
+    \begin{enumerate}
+    
+    
     \item  Scheduling function decides new cell should be assigned.
     \item<2-> Child node sends an Add request. 
     \item<3-> Scheduling function decides which cells to be selected. 
     \item<4-> Parent node replies with an Add response.
     \item<5-> Cell is added and communication start.
-    \end{itemize}
+    \end{enumerate}
     \end{block}
 
 \begin{figure}[p]
@@ -189,10 +152,9 @@
 \begin{block}{Collision in Dedicated Cells}
     \begin{itemize}
     \item Collision free Dedicated Cells?  
-    \item<2-> No central entity in distributed approach.
     \item<3-> Neighbor nodes can select the same communication cell.
     \item<5-> Collision at the reception Node.
-    \item<6-> Collision in terms of power, latency. 
+    
     \end{itemize}
     \end{block}
 
@@ -210,38 +172,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  7   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{withoutheadline}
-\begin{frame}{Project challenges \& Objectives}
 
-
-\setbeamercolor{block title}{bg=blue!30,fg=black}
-\setbeamercolor{block body}{bg=blue!10,fg=black}
-\setbeamertemplate{blocks}[rounded][shadow=false]
-\begin{minipage}[t]{0.48\linewidth}
-
-\begin{block}{Collision in Dedicated Cells}
-    \begin{itemize}
-    \item Housekeeping approach and cell relocation.
-    \item<2-> Tx housekeeping. 
-    \item<5-> Rx housekeeping. 
-    \item<7-> Dealing with collisions after they occur. Good idea ?
-    
-    \end{itemize}
-    \end{block}
-\end{minipage}\hfill
-\begin{minipage}[t]{0.48\linewidth}
-\begin{figure}[p]
- \only<2>{\includegraphics[width=\linewidth]{figures/hk1.png}}
- \only<3>{\includegraphics[width=\linewidth]{figures/hk2.png}}
-  \only<4>{\includegraphics[width=\linewidth]{figures/hk3.png}}
-  \only<5>{\includegraphics[width=\linewidth]{figures/rx1.png}}
-  \only<6->{\includegraphics[width=\linewidth]{figures/rx2.png}}
-  
-\end{figure}
-\end{minipage}
-
-\end{frame}
-\end{withoutheadline}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  8   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

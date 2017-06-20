@@ -1,0 +1,41 @@
+
+\begin{withoutheadline}
+
+\begin{frame}{IEEE802.15.4 Protocols}
+
+
+\setbeamercolor{block title}{bg=blue!30,fg=black}
+\setbeamercolor{block body}{bg=blue!10,fg=black}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+\begin{minipage}[t]{0.48\linewidth}
+
+\begin{block}{6TiSCH}
+    \begin{itemize}
+    \item  IEEE802.15.4 left the management of TSCH for other Protocols. 
+    \item<2->  6TiSCH offered the integration of TSCH over IPv6.
+    \item<3->  6TiSCH operation sublayer (6top) offered the management of TSCH:
+             \begin{itemize}
+             \item Centralized algorithm.
+             \item<4-> Distributed algorithm. 
+             \end{itemize}
+    \item<5-> 6top contains:
+     \begin{itemize}
+             \item 6top transactions.
+             \item<6-> Scheduling function. 
+             \end{itemize}
+    
+    \end{itemize}
+    \end{block}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+\vskip 5em
+\begin{figure}[p]
+
+ \only<3>{\includegraphics[width=\linewidth]{figures/Cent.png}}
+  \only<4->{\includegraphics[width=\linewidth]{figures/Dist.png}}
+  
+\end{figure}
+
+\end{minipage}
+\end{frame}
+\end{withoutheadline}

@@ -18,68 +18,66 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {1}{2}{2}{13/18}{IEEE802.15.4 Protocols}{0}}
 \headcommand {\beamer@framepages {13}{18}}
-\headcommand {\slideentry {1}{2}{3}{19/24}{IEEE802.15.4 Protocols}{0}}
-\headcommand {\beamer@framepages {19}{24}}
-\headcommand {\slideentry {1}{2}{4}{25/29}{IEEE802.15.4 Protocols}{0}}
+\headcommand {\slideentry {1}{2}{3}{19/23}{IEEE802.15.4 Protocols}{0}}
+\headcommand {\beamer@framepages {19}{23}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{24}{Project challenges \& Objectives}}\headcommand {\beamer@subsectionpages {12}{23}}
+\headcommand {\slideentry {1}{3}{1}{24/24}{Project challenges \& Objectives}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {1}{3}{2}{25/29}{Project challenges \& Objectives}{0}}
 \headcommand {\beamer@framepages {25}{29}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{30}{Project challenges \& Objectives}}\headcommand {\beamer@subsectionpages {12}{29}}
-\headcommand {\slideentry {1}{3}{1}{30/30}{Project challenges \& Objectives}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {1}{3}{2}{31/36}{Project challenges \& Objectives}{0}}
-\headcommand {\beamer@framepages {31}{36}}
-\headcommand {\slideentry {1}{3}{3}{37/43}{Project challenges \& Objectives}{0}}
-\headcommand {\beamer@framepages {37}{43}}
-\headcommand {\slideentry {1}{3}{4}{44/46}{Project challenges \& Objectives}{0}}
-\headcommand {\beamer@framepages {44}{46}}
-\headcommand {\sectionentry {2}{Proposed Mechanism}{47}{Proposed Mechanism}{0}}
-\headcommand {\beamer@sectionpages {3}{46}}
-\headcommand {\beamer@subsectionpages {30}{46}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{47}{Using 6top Transaction}}\headcommand {\beamer@subsectionpages {47}{46}}
-\headcommand {\slideentry {2}{1}{1}{47/47}{Using 6top Transaction}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {2}{1}{2}{48/52}{Using 6top Transaction}{0}}
-\headcommand {\beamer@framepages {48}{52}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{53}{Avoid Table}}\headcommand {\beamer@subsectionpages {47}{52}}
-\headcommand {\slideentry {2}{2}{1}{53/53}{Avoid Table}{0}}
-\headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {2}{2}{2}{54/56}{Avoid Table}{0}}
-\headcommand {\beamer@framepages {54}{56}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{57}{Cell Buffer}}\headcommand {\beamer@subsectionpages {53}{56}}
-\headcommand {\slideentry {2}{3}{1}{57/57}{Cell Buffer}{0}}
-\headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {2}{3}{2}{58/61}{Cell Buffer}{0}}
-\headcommand {\beamer@framepages {58}{61}}
-\headcommand {\sectionentry {3}{Simulator and Results}{62}{Simulator and Results}{0}}
-\headcommand {\beamer@sectionpages {47}{61}}
-\headcommand {\beamer@subsectionpages {57}{61}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{62}{Simulator}}\headcommand {\beamer@subsectionpages {62}{61}}
-\headcommand {\slideentry {3}{1}{1}{62/62}{Simulator}{0}}
+\headcommand {\slideentry {1}{3}{3}{30/32}{Project challenges \& Objectives}{0}}
+\headcommand {\beamer@framepages {30}{32}}
+\headcommand {\sectionentry {2}{Proposed Mechanism}{33}{Proposed Mechanism}{0}}
+\headcommand {\beamer@sectionpages {3}{32}}
+\headcommand {\beamer@subsectionpages {24}{32}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{33}{Using 6top Transaction}}\headcommand {\beamer@subsectionpages {33}{32}}
+\headcommand {\slideentry {2}{1}{1}{33/33}{Using 6top Transaction}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {2}{1}{2}{34/38}{Using 6top Transaction}{0}}
+\headcommand {\beamer@framepages {34}{38}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{39}{Avoid Table}}\headcommand {\beamer@subsectionpages {33}{38}}
+\headcommand {\slideentry {2}{2}{1}{39/39}{Avoid Table}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {2}{2}{2}{40/42}{Avoid Table}{0}}
+\headcommand {\beamer@framepages {40}{42}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{43}{Cell Buffer}}\headcommand {\beamer@subsectionpages {39}{42}}
+\headcommand {\slideentry {2}{3}{1}{43/43}{Cell Buffer}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {2}{3}{2}{44/47}{Cell Buffer}{0}}
+\headcommand {\beamer@framepages {44}{47}}
+\headcommand {\sectionentry {3}{Simulator and Results}{48}{Simulator and Results}{0}}
+\headcommand {\beamer@sectionpages {33}{47}}
+\headcommand {\beamer@subsectionpages {43}{47}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{48}{Simulator}}\headcommand {\beamer@subsectionpages {48}{47}}
+\headcommand {\slideentry {3}{1}{1}{48/48}{Simulator}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {3}{1}{2}{49/49}{Simulator}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {3}{1}{3}{50/50}{Simulator}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{51}{ Results}}\headcommand {\beamer@subsectionpages {48}{50}}
+\headcommand {\slideentry {3}{2}{1}{51/51}{ Results}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\slideentry {3}{2}{2}{52/52}{ Results}{0}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\slideentry {3}{2}{3}{53/54}{ Results}{0}}
+\headcommand {\beamer@framepages {53}{54}}
+\headcommand {\slideentry {3}{2}{4}{55/61}{ Results}{0}}
+\headcommand {\beamer@framepages {55}{61}}
+\headcommand {\slideentry {3}{2}{5}{62/62}{ Results}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {3}{1}{2}{63/63}{Simulator}{0}}
+\headcommand {\sectionentry {4}{Summary and Contributions}{63}{Summary and Contributions}{0}}
+\headcommand {\beamer@sectionpages {48}{62}}
+\headcommand {\beamer@subsectionpages {51}{62}}
+\headcommand {\slideentry {4}{0}{1}{63/63}{}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\slideentry {3}{1}{3}{64/64}{Simulator}{0}}
+\headcommand {\sectionentry {5}{last}{64}{last}{0}}
+\headcommand {\beamer@sectionpages {63}{63}}
+\headcommand {\beamer@subsectionpages {63}{63}}
+\headcommand {\slideentry {5}{0}{1}{64/64}{}{0}}
 \headcommand {\beamer@framepages {64}{64}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{65}{ Results}}\headcommand {\beamer@subsectionpages {62}{64}}
-\headcommand {\slideentry {3}{2}{1}{65/65}{ Results}{0}}
-\headcommand {\beamer@framepages {65}{65}}
-\headcommand {\slideentry {3}{2}{2}{66/66}{ Results}{0}}
-\headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {3}{2}{3}{67/68}{ Results}{0}}
-\headcommand {\beamer@framepages {67}{68}}
-\headcommand {\slideentry {3}{2}{4}{69/69}{ Results}{0}}
-\headcommand {\beamer@framepages {69}{69}}
-\headcommand {\sectionentry {4}{Summary}{70}{Summary}{0}}
-\headcommand {\beamer@sectionpages {62}{69}}
-\headcommand {\beamer@subsectionpages {65}{69}}
-\headcommand {\slideentry {4}{0}{1}{70/70}{}{0}}
-\headcommand {\beamer@framepages {70}{70}}
-\headcommand {\sectionentry {5}{last}{71}{last}{0}}
-\headcommand {\beamer@sectionpages {70}{70}}
-\headcommand {\beamer@subsectionpages {70}{70}}
-\headcommand {\slideentry {5}{0}{1}{71/71}{}{0}}
-\headcommand {\beamer@framepages {71}{71}}
-\headcommand {\beamer@partpages {1}{71}}
-\headcommand {\beamer@subsectionpages {71}{71}}
-\headcommand {\beamer@sectionpages {71}{71}}
-\headcommand {\beamer@documentpages {71}}
-\headcommand {\def \inserttotalframenumber {28}}
+\headcommand {\beamer@partpages {1}{64}}
+\headcommand {\beamer@subsectionpages {64}{64}}
+\headcommand {\beamer@sectionpages {64}{64}}
+\headcommand {\beamer@documentpages {64}}
+\headcommand {\def \inserttotalframenumber {27}}

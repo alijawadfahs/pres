@@ -75,13 +75,22 @@
 \headcommand {\beamer@subsectionpages {44}{55}}
 \headcommand {\slideentry {4}{0}{1}{56/56}{}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\sectionentry {5}{last}{57}{last}{0}}
-\headcommand {\beamer@sectionpages {56}{56}}
-\headcommand {\beamer@subsectionpages {56}{56}}
-\headcommand {\slideentry {5}{0}{1}{57/57}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{57/57}{}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\beamer@partpages {1}{57}}
-\headcommand {\beamer@subsectionpages {57}{57}}
-\headcommand {\beamer@sectionpages {57}{57}}
-\headcommand {\beamer@documentpages {57}}
-\headcommand {\def \inserttotalframenumber {29}}
+\headcommand {\sectionentry {5}{last}{58}{last}{0}}
+\headcommand {\beamer@sectionpages {56}{57}}
+\headcommand {\beamer@subsectionpages {56}{57}}
+\headcommand {\slideentry {5}{0}{1}{58/58}{}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\headcommand {\beamer@partpages {1}{58}}
+\headcommand {\beamer@sectionpages {58}{58}}
+\headcommand {\beamer@subsectionpages {58}{58}}
+\headcommand {\beamer@appendixpages {59}}
+\headcommand {\slideentry {5}{0}{2}{59/64}{}{1}}
+\headcommand {\beamer@framepages {59}{64}}
+\headcommand {\beamer@partpages {59}{64}}
+\headcommand {\beamer@subsectionpages {59}{64}}
+\headcommand {\beamer@sectionpages {59}{64}}
+\headcommand {\beamer@documentpages {64}}
+\headcommand {\def \inserttotalframenumber {31}}

@@ -4,12 +4,13 @@ The top-level auxiliary file: presentation.aux
 A level-1 auxiliary file: ./intro.aux
 A level-1 auxiliary file: ./pro.aux
 A level-1 auxiliary file: ./res.aux
+A level-1 auxiliary file: ./app.aux
 I found no \citation commands---while reading file presentation.aux
 I found no \bibdata command---while reading file presentation.aux
 I found no \bibstyle command---while reading file presentation.aux
 You've used 0 entries,
             0 wiz_defined-function locations,
-            86 strings with 527 characters,
+            87 strings with 536 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

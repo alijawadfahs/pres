@@ -12,13 +12,22 @@
     }{}
 \makeatother
 
-\addtobeamertemplate{navigation symbols}{}{%
-    \usebeamerfont{footline}%
-    \usebeamercolor[fg]{footline}%
-    \hspace{1em}%
-    \insertframenumber/\inserttotalframenumber
-}
 
+\beamertemplatenavigationsymbolsempty
+\makeatother
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.4\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.6\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
+    \insertframenumber{} / 19
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
 %%%%%%%%%%FIRST SLIDE%%%%%%%%%%
 
 \setbeamercolor*{title}{use=structure,fg=white,bg=structure.fg}
@@ -29,22 +38,26 @@
 
 
 \institute[Universities of Somewhere and Elsewhere] 
-{Universit\'e Grenoble Alpes (UGA) - UFR IM\textsuperscript{2}AG \\
+{Lebanese University-Faculty of Engineering (ULFG)\\
+Universit\'e Grenoble Alpes (UGA) - UFR IM\textsuperscript{2}AG \\
 
 Laboratoire d'Informatique de Grenoble (LIG), Team Drakkar \\
 VERIMAG,Synchrone\\
-Supervised by : Olivier Alphand, Franck Rousseau \\
- Karine Altisen, St\'ephane Devismes 
+Supervised by : Dr. Olivier Alphand, Dr. Franck Rousseau \\
+ Dr. Karine Altisen, Dr. St\'ephane Devismes \\
+ Prof. Abed Ellatif Samhat
  }
 
-\date{Master thesis, \nth{21} of June,2017}
+\date{Final Year Project, \nth{13} of July,2017}
 
 
 \subject{Wireless Sensor Networks}
 %%%%%%%%%%%%%%%%%%%%%%%% OUTLINE%%%%%%%%%%%%
 \AtBeginSubsection[]
 { \begin{withoutheadline}
+\setbeamertemplate{footline}{} 
   \begin{frame}<beamer>{Outline}
+  
     \tableofcontents[currentsection,currentsubsection]
   \end{frame}
   \end{withoutheadline}
@@ -57,16 +70,18 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 
 \begin{document}
 \begin{withoutheadline}
+\setbeamertemplate{footline}{} 
 \begin{frame}
   \titlepage
 
 \begin{itemize}
 \item[]
 \begin{center}
-\includegraphics[width=0.2\linewidth]{figures/logo_im2ag_h122.jpg} \hskip 1em
-\includegraphics[width=0.25\linewidth]{figures/logoINP.png}  \hskip 1em
-\includegraphics[width=0.21\linewidth]{figures/LIG_test.png}  \hskip 1em
-\includegraphics[width=0.22\linewidth]{figures/verimag.jpg}
+\includegraphics[width=0.13\linewidth]{figures/logo-ulfg-port.png} \hskip 1em
+\includegraphics[width=0.13\linewidth]{figures/logo_im2ag_h122.jpg} \hskip 1em
+\includegraphics[width=0.16\linewidth]{figures/Logo_ENSIMAG_2008-svg.png} \hskip 1em
+\includegraphics[width=0.135\linewidth]{figures/LIG_test.png}  \hskip 1em
+\includegraphics[width=0.14\linewidth]{figures/verimag.jpg}
 \end{center}
 \end{itemize}
 
@@ -79,6 +94,7 @@ Supervised by : Olivier Alphand, Franck Rousseau \\
 \begin{withoutheadline}
     \begin{frame}{Outline} % and our simple frame
         \tableofcontents
+        \addtocounter{framenumber}{-1}
     \end{frame}
 \end{withoutheadline}
 %%%%%%%%%%%%%%%%%%%% content%%%%%%%%%%%%%%%%%%%%%%%%%%

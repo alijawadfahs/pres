@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>FOG DRSA - Ali</title>
+<link rel="icon" href="IC.png">
+</head>
+<body >
+<p>This sub-domain is created for My PhD student position in IRISA\INRIA LAB. All the work described in those pages are done by Ali Jawad FAHS and considered the intellectual property of IRISA LAB. </p>
+
+<h1>Decentralized Fog Computing Infrastructure Control</h1>
+
+
+<h2 >1- Subject<a href="#1--Subject" class="wiki-anchor"></a></h2>
+
+
+
+ <p>Cloud computing infrastructures are very powerful and flexible, but they are also located very far from their end users. Typical network latencies between an end user and the closest public cloud data center are in the order of 20-40 ms over high-quality wired networks, and 100-150 ms over 4G mobile phone connections. This performance level is acceptable for simple applications such as web browsing, but it makes it impossible to create a wide range of interactive applications. For example, to enable an "instantaneous" feeling, augmented reality applications require that end-to-end latencies (including all networking and processing delays) remain below 20 ms. </p>
+
+<p>To address these issues, a new type of "fog computing" infrastructures is being designed [1,5]. Instead of treating the mobile operator's network as a high-latency dumb pipe between the end users and the external service providers, fog platforms aim to bring cloud resources at the edge of the network, in very close physical proximity with the end users. This is expected to offer extremely low latency between the client devices and the cloud resources serving them.</p>
+
+<p>Fog platforms have very different geographical distribution compared to traditional clouds. Classical datacenter clouds are composed of many reliable and powerful machines located in a very small number of data centers and interconnected by very high-speed networks. In contrast, fogs are composed of a very large number of points-of-presence with a couple of weak and potentially unreliable servers, interconnected with each other by commodity long-distance networks.</p>
+
+<p>However, the management part of current fog computing platforms remains centralized: a single node (or small group of nodes) is in charge of maintaining the list of available server machines, monitoring them, distributing software to them, deciding which server must take care of which task, etc. This organization generates unnecessary long-distance network traffic, does not handle network partitions well, and may even create legal issues if the controller and the compute/storage nodes are located in different jurisdictions.</p>
+
+<p>The goal of this project is to reduce the discrepancy between the broadly distributed compute/storage resources and the -- currently -- extremely centralized control of these resources. We can exploit the fact that the virtual resources in a fog computing platform are in most cases created in immediate proximity of the user(s) who will access them. In this perspective, the platform management processes could be distributed evenly across the infrastructure nodes so that the virtual and physical resources, the users accessing them, and the management processes organizing this system, will be co-located within a few hundred meters from each other. One interesting direction to address this problem -- which remains to be (in)validated by the doctoral student -- is to execute cloud resource scheduling algorithms [7] on every point-of-presence of the system (whereas traditional clouds centralize these algorithms in a single node), and to base the necessary coordination of multiple schedulers on gossiping algorithms [6] between neighboring points-of-presence. </p>
+
+<p>This project is being conducted within the <a href="http://www.irisa.fr/en" class="external">IRISA</a> <a href="https://team.inria.fr/myriads/" class="external">Myriads</a> team which is working on the design of innovative infrastructures and middleware for future fog computing platforms [2,3,4].</p>	
+
+
+<h2 >2- General information<a href="#2--General-information" class="wiki-anchor"></a></h2>
+ 
+
+	
+<h3 >2.1- Schedule<a href="#21--Schedule" class="wiki-anchor"></a></h3>
+
+
+	<p>->start: <em>02/10/2017</em></p>
+
+	<ol>
+		<li> <a  href="hexad.html"> First Hexad </a> (<em>02/10/2017 - 30/3/2018</em> )</li>
+		<li>Second Hexad (<em>01/04/2018 - 30/09/2018</em>)</li>
+		<li> Third Hexad (<em>01/10/2018 - 30/3/2019 </em>)</li>
+		<li>Fourth Hexad (<em>01/04/2019 - 30/09/2019</em>)</li>
+		<li>Fifth Hexad (<em>01/10/2019 - 30/3/2020</em>)</li>
+		<li> Sixth Hexad (<em>01/04/2020 - 30/09/2020</em>)</li>
+	</ol>
+
+
+
+	<p>->ends: <em>30/09/2020</em></p>
+
+
+<hr />
+
+<h3 >2.2- Participants<a href="#22--Participants" class="wiki-anchor"></a></h3>
+
+
+	<ul>
+	<li>Supervisor:
+
+	<a href="http://www.globule.org/~gpierre/" class="external">Guillaume PIERRE</a> (<a href="http://www.irisa.fr/en" class="external">IRISA</a>-<a href="https://team.inria.fr/myriads/" class="external">Myriads</a>)</li>
+
+	<li>PhD Student: <a href="https://scholar.google.fr/citations?user=hgmJsq0AAAAJ&hl=en" class="external">Ali Jawad FAHS </a> </li>	</ul>
+
+
+<hr />
+
+
+	
+
+<!-- <h3 >2.3- Reports rules<a href="#23--Reports-rules" class="wiki-anchor"></a></h3>
+
+
+	<p><a class="wiki-page" href="Rules">Report rules </a></p>
+
+
+	<p>Paper Submission: <a href="http://conferences.computer.org/wimob2017/guidelines.html" class="external">Author Guidelines</a></p>
+
+
+<hr /> -->
+
+
+	
+<h2 >3- Progress<a href="#3--Progress" class="wiki-anchor"></a></h2>
+
+
+	<p><a  href="daily.html">daily progress</a> (To be used by Participants to follow-up the progress and by Student to have a structured progress.</p>
+
+
+	<!-- <p><a  href="code">Code documentation</a> a Small manual for the parts we are going to work on in the 6tisch simulator.</p> -->
+
+<!-- <p><a  href="pres/presentation 1 .pdf">First presentation</a> presentation to sum up the work done in the first 2 weeks </p>
+ -->
+<!-- <p><a  href="pres/pres2.pdf">Second presentation</a> presentation to sum up the work done in the Second 2 weeks </p>
+ -->
+<!-- <p>the rest of the presentations were done using white board</p>
+
+<p><a  href="pres/reportofFebruary.pdf"> report of February </a> First month Report (contain only the algorithm doesn't contain the code work because it's huge)</p> -->
+
+
+
+<hr />
+
+
+	
+<h2 >4- Results<a href="#4--Results" class="wiki-anchor"></a></h2>
+
+
+	<p align="center"><i><u>To Be Updated</u></i></p>
+<hr />
+
+
+	
+<h2 >5-References<a href="#5-References" class="wiki-anchor"></a></h2>
+
+
+<ul>
+<li>[1] "MEC-ConPaaS: An experimental single-board based mobile edge cloud." Alexandre van Kempen, Teodor Crivat, Benjamin Trubert, Debaditya Roy and Guillaume Pierre. In Proceedings of the IEEE Mobile Cloud conference, April 2017.</li>
+<li>[2] "Kangaroo: A Tenant-Centric Software-Defined Cloud Infrastructure." Kaveh Razavi, Ana Ion, Genc Tato, Kyuho Jeong, Renato Figueiredo, Guillaume Pierre and Thilo Kielmann. In Proceedings of the IEEE International Conference on Cloud Engineering (IC2E), Tempe, AZ, USA, March 2015. <a target="_blank" rel="nofollow" href="http://d.researchbib.com/d/4mq3q3Yzqfo2W1oTHho3WaY3O1LzkcY0gHD1ARD0ysnJZlMGVjZGHhnUEgoN">http://www.globule.org/publi/KTCSDCI_ic2e2015.html</a></li>
+<li>[3] "ConPaaS: a Platform for Hosting Elastic Cloud Applications." Guillaume Pierre and Corina Stratan. IEEE Internet Computing 16(5), September-October 2012. <a target="_blank" rel="nofollow" href="http://d.researchbib.com/d/fmq3q3Yzqfo2W1oTHho3WaY3O1LzkcY0ADFRIQDI9cLmVjZGVhnUEgoN">http://www.globule.org/publi/CPHECA_ic2012.html</a></li>
+<li>[4] "The mobile edge cloud testbed at IRISA Myriads team." <a target="_blank" rel="nofollow" href="http://d.researchbib.com/d/3irJ91qUHhLzHiA3IZn0kcqTyGHT8">https://youtu.be/7uLkLitiSPo</a><br />
+<li>[5] "Fog Computing and its Ecosystem." Ramin Elahi, tutorial at the USENIX FAST conference, 2016. <a target="_blank" rel="nofollow" href="http://d.researchbib.com/d/5mLzy0YzEiY2ZlITR3">http://bit.do/c2Ta7</a><</li>
+<li>[6] "Gossip-based peer sampling." Mark Jelasity, Spyros Voulgaris, Rachid Guerraoui, Anne-Marie Kermarrec and Maarten Van Steen.  ACM Transactions on Computer Systems 25(3), 2007.<br />
+<a target="_blank" rel="nofollow" href="http://d.researchbib.com/f/bnLJAlo3OioTymYzAmYaM1Yz5fY35mpUylo3Ziq3q3Y3OupTIlpl9Uo3AmnKNgLzSmMJDyZwODMJIlWGVjH2SgpTkcozphpTEz.pdf">http://acropolis.cs.vu.nl/~spyros/www/papers/Gossi...</a></li>
+<li>[7] "A Survey on Resource Scheduling in Cloud Computing: Issues and Challenges." Sukhpal Singh and Inderveer Chana.  Journal Grid Computing 14, 2016. <a target="_blank" rel="nofollow" href="http://d.researchbib.com/d/5moTyhnl5mpUWcozqypv5wo20iLKW0nJAfMF8kZP4kZQN3Y3ZkZQplZl0jZGHgBGZ1BF0l">http://link.springer.com/article/10.1007/s10723-01...</a></li>
+
+</ul>
+
+
+	<!-- <ul>
+	
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/6979984" class="external">6TiSCH: deterministic IP-enabled industrial internet (of things)</a>
+<p><br></p>
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/5464820/" class="external">A performance evaluation study of RPL: Routing Protocol for Low power and Lossy Networks</a>
+<p><br></p>
+<li><a href="http://dl.acm.org/citation.cfm?id=2989133" class="external">
+Experimental Validation of a Distributed Self-Configured 6TiSCH with Traffic Isolation in Low Power Lossy Networks</a>
+<p><br></p>
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/7254107/" class="external">Decentralized Traffic Aware Scheduling in 6TiSCH Networks: Design and Experimental Evaluation</a>
+<p><br></p>
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/7273816/" class="external">On-the-Fly Bandwidth Reservation for 6TiSCH Wireless Industrial Networks</a>
+<p><br></p>
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/6362805/" class="external">Traffic Aware Scheduling Algorithm for reliable low-power multi-hop IEEE 802.15.4e networks
+View</a>
+<p><br></p>
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/6583485/" class="external">Decentralized Traffic Aware Scheduling for multi-hop Low power Lossy Networks in the Internet of Things</a> 
+<p><br></p>
+<li><a href="http://dl.acm.org/citation.cfm?id=2809714" class="external">Orchestra: Robust Mesh Networks Through Autonomously Scheduled TSCH</a>
+<p><br></p>
+<li><a href="http://ieeexplore.ieee.org.gaelnomade-1.grenet.fr/abstract/document/7478619/" class="external">Simple Distributed Scheduling With Collision Detection in TSCH Networks</a>
+<p><br></p>
+<li><a href="http://dl.acm.org/citation.cfm?id=359563" class="external">Time, clocks, and the ordering of events in a distributed system</a>
+
+	</ul> -->
+	
+
+
+<hr />
+</div>
+</body>
+</html>
